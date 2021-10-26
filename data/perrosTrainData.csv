@@ -1,0 +1,26 @@
+Mascota,Edad,Tamaño,Sexo,Patron de pelaje,Color de pelaje 1,Color de pelaje 2,Color de pelaje 3,Largo de pelaje,Color de ojos,Largo de hocico,Largo de cola,Largo de orejas,Tipo de orejas
+1,Adulto,Mediano,,Bicolor,Blanco,Negro,,Corto,,Corto,,Cortas,
+2,Cachorro,Mediano,,Bicolor,Blanco,Marron,,,,Largo,,Cortas,Caidas
+3,Adulto,Mediano,,Liso,Negro,,,Corto,Marron oscuro,Largo,,Largas,
+4,Adulto,Mediano,,,,,,Corto,,Largo,,,Paradas
+5,,Chico,,Liso,Negro,,,Corto,Marron oscuro,Corto,,Cortas,Caidas
+6,,Chico,,Liso,Negro,,,Corto,Marron oscuro,Corto,,Cortas,Caidas
+7,,Mediano,,,Negro,,,Corto,Marron oscuro,Corto,,Cortas,
+8,Adulto,Mediano,,Liso,Negro,,,Corto,Marron oscuro,Largo,Largo,,Caidas
+9,Cachorro,Chico,,Bicolor,Blanco,,,Corto,,,Corto,Cortas,Caidas
+10,Adulto,Grande,,Liso,,,,Mediano,Marron oscuro,Largo,Largo,Largas,
+11,Adulto,Mediano,,,Blanco,,,Corto,,Largo,Largo,
+12,Adulto,Mediano,,Liso,Negro,,,Largo,Marron oscuro,,Corto,Mediano,Caidas
+13,Adulto,Mediano,,,Liso,Negro,,,Marron oscuro,Largo,Cortada,,Caidas
+14,,Mediano,,Liso,Negro,,,Corto,,Corto,,Cortas,
+15,Adulto,Chico,,Liso,Negro,,,,Marron oscuro,Corto,Largo,Cortas,
+16,,Chico,,,,,,Largo,Marron oscuro,,Largo,Cortas,Paradas
+17,Adulto,Chico,,Liso,,,,Corto,Marron oscuro,Corto,Corto,,Caidas
+18,,Mediano,,Bicolor,Negro,,,Mediano,,Largo,Largo,Mediano,Caidas
+19,Adulto,Mediano,Macho,,,,,,Marron oscuro,,Largo,Mediano,Caidas
+20,,Grande,Macho,Liso,Blanco,,,Corto,,Largo,Largo,Cortas,
+21,Adulto,Grande,Hembra,,,,,Corto,Marron oscuro,Largo,Largo,
+22,,Mediano,,Bicolor,Negro,Blanco,,Corto,,Largo,,Mediano,
+23,,Grande,,Liso,,,,Corto,Marron oscuro,Largo,Cortas,,Caidas
+24,Adulto,Chico,Macho,,Negro,,,Corto,,Corto,Cortada,Mediano,Caidas
+25,Adulto,Grande,Hembra,Liso,Negro,,,Mediano,Marron oscuro,Largo,Largo,
