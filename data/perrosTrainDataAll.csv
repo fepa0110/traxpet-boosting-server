@@ -1,5 +1,5 @@
 Mascota,Edad,Tamaño,Sexo,Patron de pelaje,Color de pelaje 1,Color de pelaje 2,Color de pelaje 3,Largo de pelaje,Color de ojos,Largo de hocico,Largo de cola,Largo de orejas,Tipo de orejas
-1,Adulto,Mediano,,Bicolor,Blanco,Negro,,Corto,,Corto,,Cortas,
+1,Adulto,Mediano,,Bicolor,Blanco,Negro,,Corto,,Corto,,Cortas,,
 2,Cachorro,Mediano,,Bicolor,Blanco,Marron,,,,Largo,,Cortas,Caidas
 3,Adulto,Mediano,,Liso,Negro,,,Corto,Marron oscuro,Largo,,Largas,
 4,Adulto,Mediano,,,,,,Corto,,Largo,,,Paradas
