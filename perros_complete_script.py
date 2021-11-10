@@ -38,7 +38,7 @@ def load_test_data():
 
 def import_model():
     model = CatBoostClassifier().load_model(
-        "models/modelDepth4Ite2000Bala.cbm", format='cbm')
+        "models/modeldeep3ite2000lr015.cbm", format='cbm')
     
     return model
 
