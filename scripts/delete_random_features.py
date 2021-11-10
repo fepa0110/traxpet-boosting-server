@@ -26,6 +26,6 @@ def delete_random_values(path, pathNewFile):
     csv_file.to_csv(pathNewFile, sep=",")
 
 path = './data/perrosTrainAllComplete.csv'
-pathNewFile = "./data/perrosTrainAllIncomplete.csv"
+pathNewFile = "./data/blabla.csv"
 
 delete_random_values(path,pathNewFile)
