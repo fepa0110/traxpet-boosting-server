@@ -2,7 +2,6 @@ import math
 import numpy as np
 import pandas
 from catboost import CatBoostClassifier, Pool, metrics, cv
-from sklearn.metrics import confusion_matrix, accuracy_score
 
 def get_mascotas_ids():
     data_train = pandas.read_csv('data/perrosTrainAllComplete.csv')
@@ -37,8 +36,10 @@ def load_test_data():
                         cat_features=categorical_features_indices)
 
 def import_model():
+    model_file_name = "models/modelIt250D3_pesos.cbm"
+    # model_file_name = "models/modelDepth4Ite2000Bala.cbm"
     model = CatBoostClassifier().load_model(
-        "models/modelDepth4Ite2000Bala.cbm", format='cbm')
+        model_file_name, format='cbm')
     
     return model
 

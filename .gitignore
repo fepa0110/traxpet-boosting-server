@@ -1,2 +1,4 @@
 catboost_info/
 data/.~lock.perrosTestData.csv#
+models/
+server/__pycache__
