@@ -2,11 +2,15 @@
 from flask import Flask, request
 from perros_predictions import PerrosPrediction
 from mascota_formatter import MascotaFormatter
+from flask_cors import CORS, cross_origin
 
 # create the Flask app
 app = Flask(__name__)
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
-@app.route('/post-example', methods=['POST'])
+@app.route('/predict', methods=['POST'])
+@cross_origin()
 def json_example():
     request_data = request.get_json()
     

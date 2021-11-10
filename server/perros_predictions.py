@@ -46,7 +46,7 @@ class PerrosPrediction:
                         cat_features=categorical_features_indices)
 
     def import_model(self):
-        model_file_name = "../models/modelIt250D3_pesos.cbm"
+        model_file_name = "../models/modeldeep3ite2000lr015.cbm"
         # model_file_name = "models/modelDepth4Ite2000Bala.cbm"
         model = CatBoostClassifier().load_model(
             model_file_name, format='cbm')
