@@ -19,7 +19,8 @@ def json_example():
 
     mascota_data = request_data["mascota"]
 
-    dictionary = perrosPrediction.get_predict_data(mascota_data["valores"])
+    dictionary = perrosPrediction.get_predict_data_from_json(
+        mascota_data["valores"])
 
     data = mascotaFormatter.parse_to_json(dictionary)
 

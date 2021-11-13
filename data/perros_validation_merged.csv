@@ -1,0 +1,641 @@
+Mascota,Edad,Tamaño,Sexo,Patron de pelaje,Color de pelaje 1,Color de pelaje 2,Color de pelaje 3,Largo de pelaje,Color de ojos,Largo de hocico,Largo de cola,Largo de orejas,Tipo de orejas
+1,Adulto,Mediano,Macho,Bicolor,Blanco,Negro,,Corto,Marron oscuro,Corto,Corta,Cortas,Caidas
+2,Cachorro,Mediano,Hembra,Bicolor,Blanco,Marron,,Corto,Marron oscuro,Largo,Largo,Cortas,Caidas
+3,Adulto,Mediano,Macho,Liso,Negro,,,Corto,Marron oscuro,Largo,Largo,Largas,Paradas
+4,Adulto,Mediano,Hembra,Liso,Dorado,,,Corto,Marron oscuro,Largo,Largo,Cortas,Paradas
+5,Cachorro,Chico,Hembra,Liso,Negro,,,Corto,Marron oscuro,Corto,Corta,Cortas,Caidas
+6,Cachorro,Chico,Macho,Bicolor,Blanco,Marron,,Corto,Marron oscuro,Corto,Corta,Cortas,Caidas
+7,Adulto,Mediano,Macho,Liso,Negro,,,Corto,Marron oscuro,Corto,Largo,Cortas,Caidas
+8,Adulto,Grande,Hembra,Bicolor,Negro,Marron,,Corto,Marron oscuro,Largo,Largo,Cortas,Caidas
+9,Cachorro,Chico,Macho,Bicolor,Blanco,Marron,,Corto,Marron oscuro,Corto,Corta,Cortas,Caidas
+10,Adulto,Grande,Hembra,Liso,Dorado,,,Mediano,Marron oscuro,Largo,Largo,Largas,Caidas
+11,Adulto,Mediano,Hembra,Liso,Blanco,,,Corto,Marron oscuro,Largo,Largo,Largas,Caidas
+12,Adulto,Mediano,Macho,Liso,Negro,,,Largo,Marron oscuro,Corto,Corta,Largas,Caidas
+13,Cachorro,Mediano,Macho,Bicolor,Negro,Marron,,Corto,Marron claro,Largo,Cortada,Cortas,Caidas
+14,Cachorro,Mediano,Macho,Liso,Negro,,,Corto,Marron claro,Corto,Largo,Cortas,Caidas
+15,Adulto,Chico,Macho,Bicolor,Negro,Marron,,Corto,Marron oscuro,Corto,Largo,Cortas,Caidas
+16,Adulto,Chico,Macho,Bicolor,Negro,Marron,,Largo,Marron oscuro,Corto,Largo,Cortas,Paradas
+17,Adulto,Chico,Macho,Liso,Marron,,,Corto,Marron oscuro,Corto,Corta,Largas,Caidas
+18,Cachorro,Mediano,Macho,Bicolor,Negro,Marron,,Mediano,Marron oscuro,Largo,Largo,Medianas,Caidas
+19,Adulto,Mediano,Macho,Liso,Dorado,,,Largo,Marron oscuro,Largo,Largo,Medianas,Caidas
+20,Adulto,Grande,Macho,Liso,Blanco,,,Corto,Marron oscuro,Largo,Largo,Cortas,Caidas
+21,Adulto,Grande,Hembra,Liso,Marron,,,Corto,Marron oscuro,Largo,Largo,Cortas,Caidas
+22,Adulto,Mediano,Hembra,Bicolor,Negro,Blanco,,Largo,Marron oscuro,Largo,Largo,Largas,Caidas
+23,Cachorro,Grande,Macho,Liso,Negro,,,Corto,Marron oscuro,Largo,Corta,Medianas,Caidas
+24,Adulto,Chico,Macho,Liso,Negro,,,Corto,Marron oscuro,Corto,Cortada,Medianas,Caidas
+25,Adulto,Grande,Hembra,Liso,Negro,,,Mediano,Marron oscuro,Largo,Largo,Largas,Paradas
+26,Adulto,Grande,Macho,Bicolor,Negro,Blanco,,Corto,Marron oscuro,Largo,Corta,Medianas,Caidas
+27,Adulto,Grande,Macho,Tricolor,Negro,Marron,Blanco,Corto,Marron oscuro,Largo,Largo,Medianas,Caidas
+28,Adulto,Mediano,Macho,Bicolor,Marron,Blanco,,Mediano,Marron claro,Largo,Largo,Cortas,Caidas
+29,Cachorro,Chico,Hembra,Liso,Marron,,,Corto,Marron oscuro,Largo,Corta,Cortas,Caidas
+30,Adulto,Grande,Macho,Liso,Negro,,,Corto,Marron oscuro,Largo,Largo,Medianas,Paradas
+31,Cachorro,Mediano,Macho,Tricolor,Negro,Blanco,Dorado,Corto,Marron oscuro,Corto,Corta,Medianas,Caidas
+32,Cachorro,Chico,Hembra,Bicolor,Negro,,,Corto,Marron claro,Corto,Corta,Largas,Caidas
+33,Cachorro,Chico,Hembra,Liso,Dorado,,,Largo,Marron oscuro,Corto,Largo,Medianas,Caidas
+34,Adulto,Grande,Macho,Bicolor,Negro,Blanco,,Corto,Marron oscuro,Largo,Cortada,Medianas,Caidas
+35,Cachorro,Mediano,Macho,Bicolor,Blanco,Marron,,Corto,Marron oscuro,Largo,Largo,Medianas,Caidas
+36,Adulto,Grande,Macho,Bicolor,Negro,Blanco,,Mediano,Marron claro,Largo,Largo,Largas,Paradas
+37,Cachorro,Mediano,Macho,Bicolor,Negro,Blanco,,Corto,Marron claro,Mediano,Largo,Medianas,Caidas
+38,Adulto,Chico,Macho,Tricolor,Negro,Marron,Blanco,Corto,Marron oscuro,Corto,Largo,Largas,Caidas
+39,Adulto,Muy Grande,Hembra,Tricolor,Blanco,Negro,Marron,Largo,Marron oscuro,Mediano,Largo,Largas,Caidas
+40,Adulto,Chico,Macho,Liso,Negro,,,Corto,Marron oscuro,Corto,Corta,Cortas,Caidas
+41,Adulto,Mediano,Macho,Bicolor,Blanco,Marron,,Corto,Marron oscuro,Largo,Largo,Cortas,Caidas
+42,Adulto,Chico,Macho,Liso,Blanco,,,Mediano,Marron oscuro,Corto,Corta,Medianas,Caidas
+43,Adulto,Mediano,Macho,Bicolor,Marron,Negro,,Corto,Marron claro,Largo,Corta,Medianas,Caidas
+44,Adulto,Mediano,Hembra,Tricolor,Negro,Marron,Blanco,Corto,Marron oscuro,Mediano,Corta,Medianas,Caidas
+45,Adulto,Chico,Hembra,Liso,Blanco,,,Corto,Marron oscuro,Corto,Corta,Cortas,Caidas
+46,Adulto,Chico,Hembra,Liso,Blanco,,,Corto,Marron oscuro,Corto,Corta,Medianas,Caidas
+47,Cachorro,Chico,Macho,Bicolor,Blanco,Negro,,Mediano,Marron oscuro,Corto,Largo,Cortas,Caidas
+48,Cachorro,Mediano,Macho,Bicolor,Negro,Marron,,Mediano,Marron oscuro,Mediano,Largo,Cortas,Caidas
+49,Adulto,Grande,Hembra,Liso,Blanco,,,Corto,Marron oscuro,Largo,Largo,Medianas,Caidas
+50,Adulto,Grande,Hembra,Bicolor,Negro,Blanco,,Corto,Marron oscuro,Corto,Cortada,Medianas,Caidas
+60,Adulto,Chico,Hembra,Liso,Blanco,Blanco,,Corto,Marron oscuro,Corto,Corta,Medianas,Paradas
+1000,Adulto,Grande,Macho,Bicolor,Negro,Blanco,,Corto,Marron claro,Largo,Mediana,Medianas,Caidas
+61,Cachorro,Mediano,Hembra,Liso,Marron,,,Corto,Marron oscuro,Largo,Mediana,Medianas,Caidas
+1002,Adulto,Grande,Macho,Liso,Negro,,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1003,Cachorro,Mediano,Macho,Liso,Dorado,,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+62,Adulto,Grande,Macho,Bicolor,Marron,,,Mediano,Marron oscuro,Largo,Largo,Largas,Paradas
+63,Adulto,Chico,Hembra,Liso,Marron,Marron,,Largo,Marron claro,Corto,Largo,Cortas,Caidas
+1007,Adulto,Mediano,Macho,Bicolor,Marron,Blanco,,Corto,Marron claro,Largo,Mediana,Medianas,Paradas
+64,Adulto,Grande,Hembra,Bicolor,Marron,Negro,,Mediano,Marron claro,Mediano,Mediana,Largas,Caidas
+1009,Cachorro,Chico,Hembra,Bicolor,Negro,Marron,,Corto,Marron claro,Corto,Mediana,Medianas,Caidas
+65,Adulto,Chico,Hembra,Liso,Marron,,,Corto,Marron oscuro,Corto,Mediana,Medianas,Caidas
+1010,Cachorro,Chico,Macho,Bicolor,Blanco,Marron,,Mediano,Marron oscuro,Corto,Mediana,Medianas,Paradas
+66,Adulto,Grande,Macho,Bicolor,Marron,Negro,,Mediano,Marron oscuro,Mediano,Largo,Medianas,Caidas
+67,Cachorro,Chico,Macho,Liso,Marron,,,Mediano,Marron claro,Mediano,Mediana,Cortas,Caidas
+1014,Cachorro,Chico,Macho,Liso,Marron,,,Corto,Marron claro,Corto,Corta,Medianas,Caidas
+68,Cachorro,Mediano,Hembra,Bicolor,Negro,Marron,,Mediano,Marron oscuro,Mediano,Largo,Medianas,Caidas
+1018,Cachorro,Mediano,Hembra,Bicolor,Negro,,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Paradas
+69,Adulto,Grande,Hembra,Liso,Blanco,,,Corto,Marron oscuro,Mediano,Largo,Medianas,Caidas
+1036,Cachorro,Chico,Macho,Liso,Negro,,,Mediano,Celeste,Corto,Corta,Medianas,Caidas
+70,Adulto,Chico,Hembra,Bicolor,Blanco,Marron,,Corto,Marron oscuro,Corto,Largo,Medianas,Caidas
+71,Cachorro,Chico,Macho,Liso,Marron,,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+72,Cachorro,Mediano,Hembra,Liso,Dorado,,,Corto,Marron oscuro,Mediano,Largo,Medianas,Caidas
+1048,Adulto,Grande,Macho,Bicolor,Negro,Dorado,,Mediano,Marron claro,Largo,Mediana,Medianas,Caidas
+73,Adulto,Chico,Macho,Liso,Negro,,,Corto,Marron claro,Mediano,Largo,Medianas,Caidas
+1053,Adulto,Mediano,Hembra,Bicolor,Marron,Blanco,,Corto,Marron oscuro,Mediano,Largo,Medianas,Caidas
+74,Adulto,Grande,Macho,Bicolor,Negro,Marron,,Mediano,Marron oscuro,Largo,Largo,Largas,Paradas
+1066,Adulto,Chico,Macho,Tricolor,Blanco,Marron,Negro,Corto,Marron oscuro,Corto,Mediana,Largas,Caidas
+75,Adulto,Grande,Hembra,Bicolor,Negro,Marron,,Corto,Marron oscuro,Mediano,Mediana,Largas,Caidas
+76,Adulto,Chico,Hembra,Liso,Negro,,,Mediano,Marron oscuro,Corto,Cortada,Largas,Caidas
+1067,Cachorro,Chico,Macho,Bicolor,Negro,Dorado,,Mediano,Marron oscuro,Corto,Corta,Cortas,Caidas
+77,Adulto,Chico,Hembra,Bicolor,Negro,Blanco,,Corto,Marron oscuro,Corto,Mediana,Medianas,Paradas
+1074,Cachorro,Chico,Macho,Bicolor,Marron,Blanco,,Corto,Marron oscuro,Corto,Corta,Cortas,Caidas
+1081,Cachorro,Chico,Macho,Bicolor,Negro,Marron,,Corto,Marron oscuro,Largo,Corta,Largas,Caidas
+78,Adulto,Chico,Macho,Bicolor,Negro,Marron,,Corto,Marron oscuro,Corto,Largo,Largas,Caidas
+1082,Cachorro,Mediano,Macho,Bicolor,Blanco,Marron,,Corto,Marron oscuro,Corto,Mediana,Medianas,Caidas
+79,Adulto,Grande,Macho,Bicolor,Gris,Blanco,,Corto,Celeste,Largo,Largo,Medianas,Paradas
+1083,Cachorro,Mediano,Macho,Bicolor,Dorado,Negro,,Mediano,Marron oscuro,Corto,Mediana,Cortas,Caidas
+3485,Adulto,Mediano,Hembra,Liso,Marron,,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1095,Cachorro,Chico,Hembra,Liso,Dorado,,,Corto,Marron oscuro,Corto,Corta,Cortas,Caidas
+1100,Cachorro,Chico,Macho,Bicolor,Dorado,Marron,,Corto,Marron oscuro,Corto,Mediana,Medianas,Caidas
+3500,Adulto,Mediano,Macho,Liso,Marron,,,Corto,Marron oscuro,Mediano,Largo,Cortas,Caidas
+3505,Adulto,Grande,Macho,Liso,Marron,,,Corto,Marron oscuro,Mediano,Largo,Cortas,Caidas
+1116,Cachorro,Chico,Macho,Bicolor,Blanco,Marron,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+3507,Adulto,Grande,Hembra,Liso,Dorado,,,Corto,Marron oscuro,Largo,Largo,Medianas,Caidas
+1121,Adulto,Chico,Macho,Bicolor,Blanco,Negro,,Largo,Marron oscuro,Corto,Mediana,Largas,Caidas
+3512,Adulto,Grande,Hembra,Liso,Negro,,,Corto,Marron oscuro,Largo,Largo,Medianas,Caidas
+3524,Adulto,Grande,Hembra,Bicolor,Blanco,Negro,,Largo,Marron oscuro,Mediano,Largo,Medianas,Caidas
+1122,Adulto,Grande,Hembra,Bicolor,Negro,Dorado,,Corto,Marron oscuro,Largo,Mediana,Largas,Paradas
+3528,Adulto,Grande,Hembra,Liso,Negro,,,Corto,Marron oscuro,Largo,Largo,Largas,Paradas
+1129,Cachorro,Mediano,Macho,Bicolor,Negro,Dorado,,Largo,Marron oscuro,Mediano,Mediana,Medianas,Paradas
+3530,Adulto,Chico,Hembra,Bicolor,Negro,Dorado,,Corto,Marron oscuro,Corto,Mediana,Medianas,Caidas
+1136,Cachorro,Chico,Hembra,Liso,Dorado,,,Corto,Marron oscuro,Corto,Mediana,Medianas,Caidas
+3592,Adulto,Chico,Hembra,Liso,Gris,,,Largo,Marron oscuro,Mediano,Largo,Largas,Caidas
+1144,Adulto,Grande,Macho,Bicolor,Marron,Blanco,,Corto,Marron oscuro,Mediano,Cortada,Largas,Caidas
+3595,Adulto,Muy Grande,Hembra,Tricolor,Blanco,Marron,Negro,Corto,Marron oscuro,Largo,Largo,Largas,Caidas
+1157,Cachorro,Mediano,Macho,Bicolor,Blanco,Marron,,Corto,Marron oscuro,Largo,Cortada,Medianas,Caidas
+3601,Adulto,Chico,Hembra,Liso,Blanco,,,Corto,Marron oscuro,Mediano,Cortada,Largas,Caidas
+3631,Adulto,Grande,Macho,Liso,Blanco,,,Largo,Marron oscuro,Mediano,Largo,Medianas,Paradas
+1166,Adulto,Grande,Hembra,Liso,Blanco,,,Corto,Marron oscuro,Mediano,Mediana,Largas,Caidas
+3701,Adulto,Grande,Hembra,Liso,Blanco,,,Mediano,Marron oscuro,Largo,Largo,Largas,Paradas
+1174,Cachorro,Chico,Macho,Liso,Dorado,,,Corto,Marron claro,Corto,Corta,Cortas,Caidas
+3752,Cachorro,Grande,Hembra,Liso,Negro,,,Corto,Marron claro,Mediano,Largo,Largas,Caidas
+3780,Adulto,Grande,Macho,Bicolor,Negro,Blanco,,Corto,Marron oscuro,Mediano,Largo,Largas,Caidas
+1183,Adulto,Chico,Hembra,Bicolor,Blanco,Dorado,,Largo,Marron claro,Corto,Corta,Cortas,Paradas
+3788,Adulto,Grande,Macho,Liso,Blanco,,,Largo,Marron claro,Mediano,Largo,Medianas,Paradas
+1186,Adulto,Mediano,Hembra,Tricolor,Blanco,,,Corto,Marron oscuro,Mediano,Mediana,Largas,Caidas
+3789,Adulto,Grande,Macho,Bicolor,Negro,Marron,,Corto,Marron oscuro,Largo,Largo,Largas,Paradas
+1191,Adulto,Mediano,Macho,Bicolor,Marron,Blanco,,Corto,Marron claro,Mediano,Mediana,Cortas,Caidas
+3793,Adulto,Mediano,Macho,Liso,Negro,,,Corto,Marron oscuro,Mediano,Largo,Largas ,Caidas
+3809,Adulto,Mediano,Macho,Bicolor,Gris,Negro,,Corto,Marron claro,Mediano,Largo,Medianas,Caidas
+1207,Cachorro,Mediano,Macho,Bicolor,Negro,Dorado,,Mediano,Marron oscuro,Mediano,Mediana,Largas,Paradas
+1215,Cachorro,Chico,Macho,Tricolor,Blanco,Negro,Marron,Mediano,Marron oscuro,Mediano,Mediana,Largas,Caidas
+3848,Adulto,Chico,Hembra,Liso,Blanco,,,Mediano,Marron oscuro,Mediano,Largo,Largas,Paradas
+3907,Adulto,Chico,Hembra,Liso,Marron,,,Corto,Marron claro,Mediano,Largo,Largas ,Paradas
+1217,Adulto,Grande,Hembra,Tricolor,Dorado,Negro,Blanco,Corto,Marron claro,Largo,Mediana,Cortas,Caidas
+3910,Cachorro,Mediano,Hembra,Tricolor,Gris,Negro,Marron,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1219,Adulto,Mediano,Macho,Liso,Negro,,,Mediano,Marron oscuro,Mediano,Mediana,Largas,Caidas
+3913,Adulto,Grande,Hembra,Liso,Gris,,,Corto,Marron oscuro,Mediano,Largo,Medianas,Caidas
+1223,Cachorro,Chico,Hembra,Bicolor,Marron,Negro,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+3914,Adulto,Chico,Macho,Liso,Dorado,,,Mediano,Marron oscuro,Mediano,Mediana,Medianas,Paradas
+1224,Adulto,Grande,Hembra,Bicolor,Dorado,Negro,,Corto,Marron oscuro,Largo,Mediana,Medianas,Caidas
+3917,Cachorro,Mediano,Macho,Bicolor,Blanco,Marron,,Mediano,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1227,Adulto,Mediano,Macho,Liso,Blanco,,,Mediano,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+3923,Adulto,Mediano,Hembra,Liso,Dorado,,,Mediano,Marron oscuro,Largo,Mediana,Medianas,Caidas
+3931,Adulto,Mediano,Hembra,Bicolor,Marron,Blanco,,Mediano,Celeste,Mediano,Largo,Medianas,Paradas
+1232,Adulto,Grande,Macho,Bicolor,Marron,Blanco,,Mediano,Marron oscuro,Mediano,Cortada,Medianas,Caidas
+3933,Adulto,Chico,Macho,Liso,Negro,,,Largo,Marron oscuro,Mediano,Largo,Medianas,Caidas
+3950,Adulto,Grande,Macho,Liso,Marron,,,Largo,Marron oscuro,Largo,Largo,Largas,Caidas
+1235,Adulto,Grande,Macho,Tricolor,Blanco,Negro,Marron,Largo,Marron oscuro,Largo,Largo,Medianas,Caidas
+3961,Adulto,Grande,Hembra,Bicolor,Negro,Marron,,Mediano,Marron oscuro,Largo,Largo,Largas,Paradas
+4026,Adulto,Chico,Hembra,Liso,Negro,,,Corto,Marron oscuro,Corto,Largo,Medianas,Caidas
+1238,Adulto,Chico,Macho,Tricolor,Blanco,Negro,Marron,Corto,Marron oscuro,Corto,Corta,Medianas,Caidas
+4053,Adulto,Grande,Hembra,Liso,Blanco,,,Mediano,Marron oscuro,Mediano,Largo,Largas,Paradas
+1279,Adulto,Mediano,Macho,Bicolor,Negro,Dorado,,Mediano,Marron oscuro,Corto,Corta,Largas,Paradas
+4073,Adulto,Muy Grande,Macho,Liso,Blanco,,,Largo,Marron oscuro,Mediano,Largo,Largas,Caidas
+1329,Adulto,Chico,Macho,Bicolor,Negro,Blanco,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+4077,Adulto,Chico,Macho,Bicolor,Negro,Dorado,,Corto,Marron oscuro,Corto,Mediana,Largas,Paradas
+1343,Adulto,Mediano,Macho ,Liso,Blanco,,,Mediano,Celeste,Mediano,Mediana,Medianas,Paradas
+1360,Adulto,Grande,Macho ,Bicolor,Negro,Marron,,Mediano,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1372,Adulto,Mediano,Hembra,Bicolor,Marron,Negro,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1373,Adulto,Chico,Macho,Bicolor,Blanco,Dorado,,Corto,Marron claro,Corto,Corta,Medianas,Caidas
+4102,Adulto,Muy Grande,Macho,Bicolor,Negro,Marron,,Corto,Marron oscuro,Largo,Largo,Largas,Caidas
+1377,Adulto,Chico,Macho,Bicolor,Blanco,Dorado,,Largo,Marron oscuro,Corto,Corta,Medianas,Caidas
+1381,Cachorro,Chico,Macho,Bicolor,Blanco,Dorado,,Corto,Marron oscuro,Corto,Corta,Largas,Caidas
+4107,Adulto,Muy Grande,Macho,Bicolor,Blanco,Gris,,Corto,Marron oscuro,Largo,Largo,Medianas,Caidas
+1382,Adulto,Muy Grande,Macho,Bicolor,Marron,Negro,,Largo,Marron oscuro,Mediano,Mediana,Largas,Caidas
+4191,Adulto,Chico,Hembra,Liso,Dorado,,,Largo,Marron oscuro,Corto,Largo,Medianas,Caidas
+1385,Adulto,Chico,Hembra,Bicolor,Blanco,Negro,,Mediano,Marron oscuro,Corto,Mediana,Medianas,Caidas
+4194,Cachorro,Mediano,Hembra,Bicolor,Blanco,Negro,,Corto,Marron oscuro,Mediano,Largo,Medianas,Caidas
+1387,Adulto,Grande,Macho,Liso,Dorado,,,Mediano,Marron oscuro,Largo,Mediana,Largas,Paradas
+4210,Adulto,Grande,Hembra,Bicolor,Marron ,Blanco,,Corto,Marron oscuro,Mediano,Largo,Medianas,Caidas
+4229,Adulto,Mediano,Hembra,Bicolor,Marron,Blanco,,Mediano,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1395,Adulto,Mediano,Hembra,Bicolor,Blanco,Marron,,Corto,Marron oscuro,Mediano,Corta,Medianas,Caidas
+6000,Cachorro,Chico,Macho,Liso,Dorado,,,Mediano,Marron oscuro,Corto,Corta,Medianas,Caidas
+4230,Adulto,Grande,Macho,Bicolor,Negro,Marron,,Corto,Marron oscuro,Mediano,Mediana,Largas,Caidas
+4235,Adulto,Grande,Macho,Liso,Dorado,,,Corto,Marron oscuro,Mediano,Largo,Medianas,Caidas
+1399,Adulto,Grande,Macho,Liso,Negro,,,Mediano,Marron oscuro,Mediano,Mediana,Largas,Caidas
+6004,Cachorro,Mediano,Macho,Liso,Negro,,,Corto,Marron claro,Mediano,Largo,Medianas,Caidas
+1401,Adulto,Mediano,Hembra,Bicolor,Blanco,Dorado,,Corto,Marron oscuro,Mediano,Mediana,Largas,Caidas
+6007,Adulto,Grande,Macho,Bicolor,Negro,Blanco,,Corto,Marron oscuro,Mediano,Largo,Medianas,Caidas
+4240,Adulto,Chico,Macho,Liso,Dorado,,,Largo,Marron oscuro,Mediano,Mediana,Largas,Caidas
+1409,Cachorro,Chico,Macho,Bicolor,Negro,Marron,,Mediano,Marron oscuro,Mediano,Mediana,Largas,Paradas
+4243,Adulto,Grande,Hembra,Liso,Dorado,,,Corto,Marron claro,Mediano,Largo,Medianas,Caidas
+6010,Adulto,Mediano,Hembra,Bicolor,Negro,Blanco,,Mediano,Marron claro,Mediano,Largo,Cortas,Paradas
+1431,Adulto,Mediano,Macho,Bicolor,Negro,Blanco,,Mediano,Marron oscuro,Mediano,Mediana,Largas,Caidas
+4272,Adulto,Mediano,Hembra,Liso,Negro,,,Mediano,Marron oscuro,Mediano,Largo,Medianas,Paradas
+6012,Cachorro,Chico,Macho,Tricolor,Marron,Blanco,Negro,Corto,Marron oscuro,Mediano,Corta,Medianas,Caidas
+4274,Adulto,Chico,Macho,Liso,Dorado,,,Largo,Marron oscuro,Mediano,Largo,Medianas,Paradas
+1432,Adulto,Grande,Hembra,Liso,Blanco,,,Mediano,Marron claro,Mediano,Mediana,Largas,Caidas
+6016,Adulto,Grande,Macho,Liso,Blanco,,,Corto,Marron oscuro,Mediano,Largo,Cortas,Caidas
+1434,Adulto,Mediano,Macho,Bicolor,Marron,Blanco,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+4282,Adulto,Grande,Macho,Bicolor,Negro,Blanco,,Mediano,Marron claro,Mediano,Mediana,Medianas,Caidas
+6017,Cachorro,Chico,Hembra,Tricolor,Negro,Blanco,Marron,Mediano,Marron claro,Corto,Corta,Medianas,Caidas
+4299,Adulto,Chico,Hembra,Bicolor,Negro,Marron,,Corto,Marron oscuro,Mediano,Cortada,Medianas,Caidas
+1444,Adulto,Chico,Hembra,Liso,Marron,,,Mediano,Marron claro,Corto,Corta,Medianas,Caidas
+4303,Adulto,Chico,Macho,Liso,Marron,,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Paradas
+4307,Adulto,Chico,Hembra,Liso,Negro,,,Largo,Marron oscuro,Mediano,Mediana,Largas,Caidas
+1452,Adulto,Grande,Macho,Bicolor,Blanco,Negro,,Largo,Marron oscuro,Mediano,Largo,Largas,Caidas
+6019,Adulto,Mediano,Macho,Tricolor,Blanco,Negro,Marron,Corto,Marron claro,Mediano,Corta,Medianas,Caidas
+4338,Adulto,Mediano,Hembra,Bicolor,Marron,Negro,,Corto,Marron oscuro,Corto,Largo,Medianas,Caidas
+6020,Adulto,Chico,Macho,Liso,Blanco,,,Largo,Marron claro,Corto,Mediana,Cortas,Caidas
+1460,Adulto,Grande,Macho,Bicolor,Marron,Blanco,,Mediano,Celeste,Largo,Largo,Largas,Paradas
+4340,Adulto,Chico,Macho,Bicolor,Negro,Blanco,,Largo,Marron oscuro,Corto,Largo,Largas,Caidas
+6022,Adulto,Grande,Hembra,Bicolor,Blanco,Dorado,,Mediano,Marron claro,Largo,Corta,Cortas,Caidas
+1468,Adulto,Grande,Macho,Tricolor,Marron,Negro,Blanco,Corto,Marron oscuro,Largo,Mediana,Largas,Paradas
+4341,Adulto,Grande,Macho,Bicolor,Blanco,Marron,,Corto,Marron oscuro,Mediano,Largo,Medianas,Caidas
+6025,Adulto,Grande,Macho,Bicolor,Negro,Marron,,Corto,Marron oscuro,Mediano,Mediana,Cortas,Caidas
+4642,Cachorro,Chico,Hembra,Bicolor,Blanco,Marron,,Mediano,Celeste,Largo,Largo,Largas,Paradas
+1470,Cachorro,Mediano,Hembra,Liso,Blanco,,,Corto,Marron claro,Mediano,Mediana,Medianas,Caidas
+4350,Adulto,Chico,Hembra,Bicolor,Negro,Dorado,,Corto,Marron oscuro,Corto,Mediana,Medianas,Caidas
+6026,Adulto,Muy Grande,Macho,Bicolor,Blanco,Negro,,Corto,Celeste,Largo,Largo,Cortas,Paradas
+4352,Adulto,Grande,Hembra,Liso,Dorado,,,Largo,Marron oscuro,Mediano,Largo,Largas,Caidas
+1476,Cachorro,Chico,Macho,Bicolor,Negro,Blanco,,Corto,Marron oscuro,Corto,Corta,Cortas,Caidas
+6027,Cachorro,Chico,Macho,Liso,Marron,,,Corto,Marron oscuro,Corto,Corta,Cortas,Caidas
+4353,Adulto,Mediano,Hembra,Bicolor,Negro,Blanco,,Largo,Marron oscuro,Mediano,Mediana,Largas,Caidas
+1477,Adulto,Grande,Macho,Tricolor,Marron,Negro,Blanco,Corto,Marron claro,Largo,Mediana,Medianas,Caidas
+6028,Adulto,Grande,Macho,Liso,Marron,,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+4354,Adulto,Chico,Hembra,Liso,Dorado,,,Mediano,Marron oscuro,Mediano,Mediana,Largas,Caidas
+1486,Adulto,Chico,Hembra,Bicolor,Blanco,Negro,,Largo,Marron claro,Mediano,Corta,Largas,Caidas
+4385,Adulto,Mediano,Hembra,Liso,Marron,,,Mediano,Marron oscuro,Largo,Largo,Largas,Paradas
+6030,Adulto,Grande,Macho,Liso,Blanco,,,Corto,Marron oscuro,Largo,Largo,Largas,Paradas
+1495,Adulto,Grande,Macho,Bicolor,Negro,Blanco,,Mediano,Marron oscuro,Largo,Mediana,Medianas,Caidas
+4390,Adulto,Chico,Hembra,Liso,Dorado,,,Largo,Marron oscuro,Largo,Largo,Largas,Caidas
+6038,Cachorro,Chico,Hembra,Liso,Marron,,,Corto,Marron oscuro,Corto,Mediana,Medianas,Paradas
+4391,Adulto,Mediano,Hembra,Bicolor,Blanco,Negro,,Corto,Marron oscuro,Mediano,Largo,Medianas,Caidas
+1498,Adulto,Grande,Macho,Bicolor,Blanco,Dorado,,Corto,Marron claro,Largo,Mediana,Largas,Paradas
+6040,Adulto,Mediano,Macho,Bicolor,Negro,Blanco,,Largo,Marron oscuro,Corto,Mediana,Medianas,Caidas
+4393,Adulto,Grande,Macho,Bicolor,Marron ,Negro,,Mediano,Marron oscuro,Largo,Largo,Largas,Paradas
+4397,Adulto,Chico,Hembra,Tricolor,Marron,Negro,Blanco,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+6041,Adulto,Grande,Hembra,Liso,Blanco,,,Corto,Marron oscuro,Largo,Largo,Cortas,Paradas
+1508,Cachorro,Chico,Macho,Tricolor,Blanco,Negro,Marron,Mediano,Marron oscuro,Corto,Mediana,Largas,Caidas
+4400,Adulto,Muy Grande,Hembra,Bicolor,Blanco ,Marron,,Largo,Marron oscuro,Largo,Largo,Cortas,Caidas
+6042,Cachorro,Chico,Macho,Bicolor,Negro,Blanco,,Corto,Marron oscuro,Corto,Corta,Medianas,Caidas
+1509,Adulto,Muy Grande,Macho,Bicolor,Gris,Marron,,Largo,Marron oscuro,Corto,Mediana,Cortas,Paradas
+4401,Adulto,Mediano,Hembra,Liso,Marron,,,Corto,Marron oscuro,Largo,Mediana,Cortas,Caidas
+6045,Adulto,Mediano,Macho,Bicolor,Marron,Blanco,,Corto,Marron oscuro,Corto,Largo,Medianas,Paradas
+4404,Adulto,Grande,Hembra,Bicolor,Negro,Marron,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1516,Cachorro,Chico,Macho,Bicolor,Negro,Blanco,,Corto,Marron oscuro,Mediano,Mediana,Cortas,Caidas
+1525,Adulto,Grande,Macho,Bicolor,Dorado,Negro,,Mediano,Marron oscuro,Largo,Mediana,Largas,Paradas
+4407,Adulto,Chico,Macho,Bicolor,Blanco,Marron,,Mediano,Marron oscuro,Mediano,Mediana,Largas,Caidas
+6046,Adulto,Mediano,Hembra,Liso,Blanco,,,Corto,Marron oscuro,Mediano,Mediana,Cortas,Paradas
+4411,Adulto,Mediano,Hembra,Bicolor,Negro,Marron,,Corto,Marron oscuro,Mediano,Mediana,Largas,Caidas
+1526,Adulto,Chico,Macho,Tricolor,Negro,Marron,Blanco,Corto,Marron oscuro,Mediano,Corta,Medianas,Caidas
+4413,Adulto,Mediano,Hembra,Bicolor,Negro,Blanco,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+6047,Cachorro,Mediano,Hembra,Bicolor,Negro,Dorado,,Mediano,Marron oscuro,Largo,Mediana,Cortas,Paradas
+4416,Adulto,Chico,Hembra,Bicolor,Negro,Gris,,Mediano,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1529,Adulto,Mediano,Macho,Liso,Dorado,,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+6049,Cachorro,Chico,Macho,Bicolor,Blanco,Negro,,Corto,Marron oscuro,Corto,Mediana,Cortas,Caidas
+4427,Adulto,Mediano,Macho,Bicolor,Negro,Marron,,Corto,Marron oscuro,Mediano,Largo,Medianas,Caidas
+1531,Cachorro,Chico,Hembra,Liso,Dorado,,,Corto,Marron oscuro,Corto,Corta,Medianas,Caidas
+4434,Cachorro,Chico,Hembra,Bicolor,Blanco,Blanco,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+4436,Adulto,Chico,Hembra,Liso,Marron,,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Paradas
+6051,Adulto,Grande,Hembra,Bicolor,Blanco,Marron,,Corto,Marron oscuro,Mediano,Largo,Cortas,Paradas
+1546,Adulto,Mediano,Macho,Tricolor,Negro,Blanco,Marron,Mediano,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+4437,Adulto,Mediano,Hembra,Liso,Marron,,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Paradas
+6055,Adulto,Grande,Macho,Liso,Negro,,,Corto,Marron claro,Corto,Corta,Medianas,Caidas
+4464,Cachorro,Mediano,Hembra,Bicolor,Marron,Blanco,,Mediano,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1549,Adulto,Mediano,Macho,Tricolor,Blanco,Negro,Marron,Corto,Marron oscuro,Mediano,Corta,Medianas,Caidas
+4465,Adulto,Grande,Hembra,Bicolor,Negro,Blanco,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+6064,Adulto,Grande,Macho,Tricolor,Negro,Marron,Blanco,Corto,Marron oscuro,Mediano,Largo,Medianas,Caidas
+4466,Cachorro,Chico,Macho,Liso,Marron,,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Paradas
+1564,Adulto,Muy Grande,Hembra,Bicolor,Gris,Blanco,,Corto,Marron claro,Mediano,Mediana,Largas,Caidas
+4467,Cachorro,Chico,Macho,Bicolor,Blanco,Negro,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+6065,Adulto,Grande,Macho,Liso,Negro,,,Mediano,Marron claro,Mediano,Mediana,Medianas,Paradas
+4468,Adulto,Grande,Hembra,Bicolor,Blanco,Negro,,Mediano,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+4473,Adulto,Grande,Hembra,Bicolor,Blanco,Marron,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+6066,Cachorro,Chico,Macho,Bicolor,Marron,Blanco,,Corto,Marron oscuro,Corto,Mediana,Largas,Caidas
+1593,Cachorro,Mediano,Macho,Tricolor,Blanco,Gris,Negro,Mediano,Marron oscuro,Largo,Mediana,Medianas,Paradas
+4478,Adulto,Mediano,Macho,Liso,Blanco,,,Mediano,Marron oscuro,Mediano,Largo,Medianas,Paradas
+4480,Adulto,Chico,Macho,Liso,Marron,,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Paradas
+4491,Adulto,Chico,Macho,Liso,Blanco,,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Paradas
+6067,Adulto,Grande,Hembra,Liso,Negro,,,Mediano,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1596,Adulto,Grande,Macho,Bicolor,Blanco,Negro,,Mediano,Celeste,Largo,Mediana,Medianas,Caidas
+4492,Adulto,Muy Grande,Macho,Bicolor,Negro,Blanco,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+6070,Cachorro,Chico,Macho,Bicolor,Negro,Marron,,Corto,Marron claro,Corto,Largo,Cortas,Caidas
+4502,Adulto,Chico,Macho,Bicolor,Negro,Marron,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+6072,Cachorro,Chico,Macho,Liso,Marron,,,Corto,Marron claro,Corto,Corta,Medianas,Caidas
+4512,Adulto,Grande,Hembra,Bicolor,Negro,Marron,,Mediano,Marron oscuro,Largo,Largo,Largas,Paradas
+4515,Adulto,Grande,Hembra,Bicolor,Negro,Marron,,Corto,Marron oscuro,Largo,Largo,Largas,Paradas
+1640,Adulto,Muy Grande,Macho,Bicolor,Negro,Blanco,,Corto,Marron oscuro,Largo,Largo,Largas,Caidas
+4516,Adulto,Chico,Hembra,Bicolor,Negro,Blanco,,Corto,Marron oscuro,Mediano,Mediana,Cortas,Caidas
+6073,Adulto,Grande,Hembra,Bicolor,Marron,Blanco,,Corto,Marron claro,Corto,Mediana,Medianas,Caidas
+4531,Adulto,Chico,Hembra,Liso,Marron,,,Largo,Marron oscuro,Mediano,Mediana,Cortas,Caidas
+1652,Adulto,Grande,Hembra,Tricolor,Gris,Blanco,Marron,Largo,Marron oscuro,Largo,Mediana,Medianas,Paradas
+4535,Adulto,Chico,Hembra,Liso,Blanco,,,Largo,Marron oscuro,Mediano,Mediana,Medianas,Paradas
+6075,Adulto,Grande,Macho,Liso,Negro,,,Corto,Marron oscuro,Corto,Largo,Medianas,Paradas
+4537,Adulto,Grande,Macho,Liso,Negro,,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+4539,Adulto,Mediano,Macho,Liso,Dorado,,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1682,Adulto,Grande,Macho,Bicolor,Negro,Marron,,Corto,Marron oscuro,Mediano,Cortada,Medianas,Caidas
+6078,Adulto,Grande,Macho,Bicolor,Marron,Blanco,,Corto,Marron oscuro,Mediano,Corta,Largas,Caidas
+4541,Adulto,Grande,Macho,Bicolor,Negro,Marron,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+4546,Cachorro,Chico,Macho,Bicolor,Marron,Blanco,,Corto,Marron oscuro,Mediano,Largo,Medianas,Caidas
+4547,Adulto,Chico,Macho,Bicolor,Marron,Negro,,Largo,Marron oscuro,Mediano,Cortada,Medianas,Paradas
+1693,Adulto,Mediano,Macho,Liso,Dorado,,,Corto,Marron claro,Mediano,Mediana,Largas,Caidas
+6079,Adulto,Mediano,Macho,Liso,Marron,,,Corto,Marron claro,Largo,Mediana,Largas,Caidas
+4551,Adulto,Grande,Hembra,Liso,Marron,,,Corto,Marron oscuro,Corto,Mediana,Medianas,Paradas
+1701,Adulto,Mediano,Hembra,Liso,Dorado,,,Corto,Marron claro,Mediano,Mediana,Medianas,Caidas
+1702,Adulto,Mediano,Macho,Liso,Blanco,,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1706,Cachorro,Chico,Macho,Bicolor,Dorado,Marron,,Corto,Marron claro,Mediano,Mediana,Medianas,Caidas
+1722,Adulto,Grande,Macho,Liso,Blanco,,,Corto,Marron claro,Mediano,Mediana,Medianas,Caidas
+1730,Cachorro,Mediano,Macho,Bicolor,Dorado,Blanco,,Corto,Marron claro,Mediano,Corta,Medianas,Caidas
+1732,Adulto,Grande,Macho,Bicolor,Marron,Blanco,,Corto,Marron oscuro,Corto,Cortada,Cortada,Paradas
+1737,Cachorro,Mediano,Hembra,Bicolor,Marron,Blanco,,Corto,Marron claro,Mediano,Mediana,Medianas,Caidas
+1761,Adulto,Mediano,Hembra,Bicolor,Negro,Blanco,,Largo,Marron oscuro,Mediano,Largo,Largas,Caidas
+1766,Adulto,Grande,Macho,Liso,Blanco,,,Corto,Marron oscuro,Mediano,Mediana,Largas,Caidas
+1767,Adulto,Grande,Macho,Bicolor,Blanco,Negro,,Mediano,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1776,Adulto,Chico,Macho,Bicolor,Blanco,Marron,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1782,Cachorro,Mediano,Hembra,Tricolor,Marron,Negro,Blanco,Corto,Marron oscuro,Mediano,Mediana,Largas,Caidas
+1789,Cachorro,Mediano,Macho,Bicolor,Negro,Marron,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1800,Cachorro,Chico,Hembra,Bicolor,Dorado,Blanco,,Corto,Marron claro,Mediano,Corta,Medianas,Caidas
+1801,Cachorro,Chico,Hembra,Tricolor,Negro,Blanco,Marron,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1807,Adulto,Chico,Macho,Liso,Dorado,,,Largo,Marron oscuro,Mediano,Corta,Medianas,Caidas
+1821,Adulto,Grande,Macho,Liso,Negro,,,Largo,Marron oscuro,Mediano,Largo,Largas,Caidas
+1837,Adulto,Grande,Macho,Bicolor,Negro,Blanco,,Mediano,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1838,Adulto,Grande,Macho,Liso,Negro,,,Mediano,Marron claro,Mediano,Mediana,Largas,Caidas
+1849,Adulto,Mediano,Hembra,Bicolor,Negro,Dorado,,Largo,Marron oscuro,Mediano,Corta,Largas,Caidas
+1851,Adulto,Grande,Hembra,Liso,Marron,,,Corto,Marron oscuro,Mediano,Mediana,Largas,Caidas
+1863,Adulto,Chico,Macho,Bicolor,Blanco,Marron,,Corto,Marron claro,Mediano,Mediana,Largas,Caidas
+1872,Adulto,Grande,Macho,Bicolor,Negro,Dorado,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1874,Adulto,Grande,Hembra,Bicolor,Dorado,Blanco,,Corto,Marron oscuro,Largo,Mediana,Cortas,Caidas
+1884,Cachorro,Chico,Macho,Bicolor,Dorado,Negro,,Mediano,Marron oscuro,Largo,Largo,Largas,Paradas
+1886,Adulto,Chico,Macho,Liso,Negro,,,Largo,Marron oscuro,Mediano,Mediana,Medianas,Paradas
+1902,Cachorro,Mediano,Macho,Bicolor,Blanco,Negro,,Mediano,Celeste,Mediano,Mediana,Medianas,Paradas
+1906,Adulto,Chico,Macho,Liso,Blanco,,,Largo,Celeste,Corto,Corta,Cortas,Caidas
+1908,Adulto,Chico,Hembra,Tricolor,Dorado,Negro,Blanco,Corto,Marron oscuro,Corto,Corta,Largas,Paradas
+1910,Adulto,Chico,Macho,Bicolor,Dorado,Blanco,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1919,Cachorro,Mediano,Macho,Tricolor,Negro,Blanco,Marron,Largo,Marron oscuro,Corto,Corta,Medianas,Caidas
+1940,Cachorro,Mediano,Macho,Liso,Marron,,,Corto,Marron claro,Largo,Mediana,Cortas,Caidas
+1950,Adulto,Chico,Hembra,Bicolor,Negro,Marron,,Largo,Marron oscuro,Mediano,Corta,Largas,Caidas
+1954,Cachorro,Mediano,Macho,Liso,Blanco,,,Corto,Marron claro,Mediano,Mediana,Medianas,Paradas
+1,,Mediano,Macho,Bicolor,Blanco,Negro,,Corto,Marron oscuro,Corto,Corta,,Caidas
+2,Cachorro,Mediano,Hembra,Bicolor,,Marron,,Corto,Marron oscuro,Largo,,Cortas,Caidas
+3,Adulto,Mediano,,Liso,Negro,,,Corto,Marron oscuro,Largo,,Largas,Paradas
+4,,Mediano,Hembra,Liso,,,,Corto,Marron oscuro,Largo,Largo,Cortas,Paradas
+5,Cachorro,,Hembra,Liso,Negro,,,Corto,Marron oscuro,Corto,,Cortas,Caidas
+6,Cachorro,Chico,Macho,Bicolor,Blanco,Marron,,Corto,Marron oscuro,Corto,Corta,Cortas,Caidas
+7,Adulto,Mediano,Macho,Liso,Negro,,,,Marron oscuro,Corto,Largo,Cortas,Caidas
+8,Adulto,Grande,Hembra,Bicolor,Negro,,,,,Largo,,Cortas,Caidas
+9,,Chico,Macho,Bicolor,Blanco,Marron,,,Marron oscuro,Corto,Corta,Cortas,Caidas
+10,,,Hembra,Liso,Dorado,,,Mediano,Marron oscuro,,Largo,Largas,Caidas
+11,Adulto,,Hembra,Liso,,,,Corto,Marron oscuro,Largo,Largo,Largas,
+12,Adulto,Mediano,Macho,Liso,Negro,,,Largo,Marron oscuro,Corto,Corta,Largas,Caidas
+13,Cachorro,Mediano,Macho,Bicolor,Negro,Marron,,Corto,Marron claro,Largo,Cortada,Cortas,
+14,Cachorro,Mediano,Macho,Liso,,,,Corto,Marron claro,,Largo,Cortas,Caidas
+15,,Chico,Macho,Bicolor,Negro,Marron,,Corto,Marron oscuro,Corto,Largo,,Caidas
+16,Adulto,,Macho,,Negro,Marron,,Largo,Marron oscuro,Corto,Largo,,
+17,Adulto,Chico,Macho,Liso,Marron,,,Corto,,Corto,Corta,Largas,Caidas
+18,Cachorro,Mediano,Macho,Bicolor,Negro,Marron,,Mediano,Marron oscuro,Largo,Largo,Medianas,Caidas
+19,Adulto,Mediano,Macho,Liso,,,,Largo,Marron oscuro,Largo,Largo,Medianas,Caidas
+20,Adulto,Grande,Macho,Liso,Blanco,,,Corto,Marron oscuro,Largo,Largo,Cortas,Caidas
+21,Adulto,Grande,Hembra,,,,,Corto,Marron oscuro,Largo,Largo,,Caidas
+22,Adulto,Mediano,Hembra,Bicolor,Negro,Blanco,,Largo,Marron oscuro,Largo,,Largas,Caidas
+23,Cachorro,,Macho,Liso,Negro,,,Corto,Marron oscuro,Largo,,,Caidas
+24,Adulto,Chico,,,Negro,,,Corto,Marron oscuro,Corto,Cortada,Medianas,
+25,Adulto,Grande,,Liso,Negro,,,Mediano,Marron oscuro,Largo,Largo,Largas,Paradas
+26,Adulto,,,Bicolor,,Blanco,,Corto,,Largo,Corta,Medianas,Caidas
+27,Adulto,Grande,Macho,Tricolor,Negro,Marron,Blanco,Corto,Marron oscuro,Largo,Largo,,Caidas
+28,Adulto,Mediano,Macho,,Marron,Blanco,,Mediano,Marron claro,Largo,Largo,Cortas,Caidas
+29,Cachorro,Chico,Hembra,Liso,Marron,,,Corto,Marron oscuro,Largo,Corta,Cortas,Caidas
+30,Adulto,Grande,Macho,Liso,Negro,,,Corto,Marron oscuro,,Largo,Medianas,
+31,Cachorro,Mediano,Macho,Tricolor,Negro,,Dorado,Corto,Marron oscuro,,Corta,Medianas,Caidas
+32,Cachorro,Chico,Hembra,Bicolor,Negro,,,Corto,Marron claro,Corto,,Largas,Caidas
+33,,Chico,Hembra,Liso,Dorado,,,Largo,Marron oscuro,Corto,Largo,Medianas,Caidas
+34,Adulto,Grande,,Bicolor,Negro,Blanco,,Corto,Marron oscuro,Largo,Cortada,Medianas,Caidas
+35,,Mediano,,Bicolor,Blanco,Marron,,Corto,Marron oscuro,Largo,Largo,Medianas,Caidas
+36,Adulto,Grande,Macho,Bicolor,Negro,Blanco,,Mediano,Marron claro,Largo,Largo,Largas,Paradas
+37,Cachorro,Mediano,Macho,,Negro,,,Corto,Marron claro,Mediano,Largo,Medianas,Caidas
+38,,Chico,Macho,Tricolor,Negro,,Blanco,Corto,,Corto,Largo,Largas,Caidas
+39,Adulto,Muy Grande,Hembra,Tricolor,Blanco,Negro,Marron,Largo,,Mediano,Largo,,Caidas
+40,,Chico,Macho,Liso,Negro,,,,,Corto,Corta,,Caidas
+41,,Mediano,Macho,Bicolor,Blanco,Marron,,,Marron oscuro,Largo,Largo,,Caidas
+42,Adulto,Chico,,Liso,Blanco,,,Mediano,Marron oscuro,,Corta,Medianas,
+43,Adulto,Mediano,Macho,Bicolor,Marron,,,Corto,,Largo,Corta,Medianas,Caidas
+44,Adulto,Mediano,Hembra,Tricolor,Negro,Marron,Blanco,Corto,,Mediano,Corta,Medianas,Caidas
+45,Adulto,Chico,Hembra,Liso,Blanco,,,,Marron oscuro,,Corta,Cortas,Caidas
+46,Adulto,Chico,Hembra,Liso,,,,Corto,Marron oscuro,Corto,Corta,Medianas,Caidas
+47,Cachorro,Chico,Macho,Bicolor,,Negro,,Mediano,Marron oscuro,Corto,Largo,Cortas,Caidas
+48,Cachorro,Mediano,Macho,Bicolor,Negro,,,,Marron oscuro,Mediano,Largo,,Caidas
+49,Adulto,Grande,Hembra,Liso,Blanco,,,Corto,,Largo,Largo,Medianas,Caidas
+50,Adulto,Grande,Hembra,Bicolor,Negro,Blanco,,Corto,Marron oscuro,Corto,Cortada,Medianas,Caidas
+60,Adulto,Chico,Hembra,Liso,Blanco,Blanco,,Corto,,Corto,Corta,Medianas,Paradas
+1000,Adulto,Grande,Macho,Bicolor,Negro,Blanco,,Corto,Marron claro,Largo,Mediana,Medianas,Caidas
+61,Cachorro,Mediano,Hembra,,,,,Corto,,Largo,Mediana,Medianas,Caidas
+1002,Adulto,Grande,Macho,Liso,Negro,,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1003,Cachorro,Mediano,Macho,Liso,Dorado,,,Corto,Marron oscuro,Mediano,,,Caidas
+62,Adulto,Grande,,Bicolor,Marron,,,Mediano,Marron oscuro,Largo,Largo,Largas,Paradas
+63,Adulto,Chico,Hembra,Liso,Marron,,,,Marron claro,Corto,,Cortas,Caidas
+1007,Adulto,Mediano,,Bicolor,Marron,Blanco,,Corto,Marron claro,Largo,,,Paradas
+64,Adulto,Grande,Hembra,Bicolor,Marron,Negro,,,,Mediano,Mediana,,Caidas
+1009,Cachorro,Chico,Hembra,Bicolor,Negro,Marron,,,Marron claro,Corto,Mediana,Medianas,
+65,Adulto,Chico,Hembra,Liso,Marron,,,Corto,Marron oscuro,Corto,Mediana,Medianas,Caidas
+1010,Cachorro,Chico,Macho,Bicolor,Blanco,Marron,,Mediano,Marron oscuro,,Mediana,Medianas,Paradas
+66,Adulto,Grande,Macho,Bicolor,Marron,,,Mediano,,,Largo,Medianas,Caidas
+67,,Chico,,Liso,Marron,,,Mediano,Marron claro,,Mediana,Cortas,Caidas
+1014,Cachorro,Chico,Macho,Liso,Marron,,,Corto,Marron claro,Corto,Corta,Medianas,Caidas
+68,,Mediano,,Bicolor,Negro,Marron,,Mediano,,Mediano,Largo,Medianas,Caidas
+1018,Cachorro,Mediano,Hembra,Bicolor,Negro,,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Paradas
+69,Adulto,Grande,Hembra,,Blanco,,,Corto,,Mediano,Largo,Medianas,Caidas
+1036,Cachorro,Chico,Macho,Liso,Negro,,,Mediano,Celeste,Corto,Corta,Medianas,Caidas
+70,Adulto,Chico,Hembra,Bicolor,Blanco,Marron,,Corto,Marron oscuro,Corto,Largo,Medianas,Caidas
+71,Cachorro,,,Liso,Marron,,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+72,Cachorro,Mediano,Hembra,Liso,,,,Corto,Marron oscuro,,Largo,,Caidas
+1048,,Grande,Macho,Bicolor,Negro,Dorado,,Mediano,Marron claro,Largo,Mediana,Medianas,Caidas
+73,,Chico,Macho,Liso,Negro,,,Corto,Marron claro,Mediano,Largo,Medianas,Caidas
+1053,Adulto,,Hembra,Bicolor,,Blanco,,,Marron oscuro,Mediano,,Medianas,Caidas
+74,Adulto,Grande,Macho,,Negro,Marron,,Mediano,Marron oscuro,Largo,Largo,Largas,
+1066,Adulto,Chico,Macho,Tricolor,,,Negro,Corto,Marron oscuro,Corto,,Largas,Caidas
+75,Adulto,Grande,,Bicolor,Negro,Marron,,Corto,Marron oscuro,Mediano,,Largas,
+76,Adulto,Chico,Hembra,Liso,Negro,,,Mediano,,Corto,Cortada,Largas,Caidas
+1067,Cachorro,Chico,Macho,,Negro,Dorado,,Mediano,Marron oscuro,Corto,,Cortas,Caidas
+77,Adulto,Chico,,Bicolor,,Blanco,,Corto,Marron oscuro,Corto,Mediana,Medianas,Paradas
+1074,,,Macho,Bicolor,Marron,Blanco,,Corto,Marron oscuro,,Corta,Cortas,Caidas
+1081,,Chico,Macho,Bicolor,Negro,Marron,,,Marron oscuro,Largo,Corta,Largas,Caidas
+78,Adulto,,,Bicolor,Negro,Marron,,Corto,Marron oscuro,Corto,Largo,Largas,Caidas
+1082,Cachorro,Mediano,Macho,Bicolor,Blanco,Marron,,Corto,Marron oscuro,Corto,Mediana,Medianas,Caidas
+79,Adulto,Grande,Macho,Bicolor,Gris,,,Corto,Celeste,Largo,Largo,Medianas,Paradas
+1083,Cachorro,Mediano,Macho,Bicolor,Dorado,Negro,,,Marron oscuro,Corto,Mediana,Cortas,Caidas
+3485,Adulto,Mediano,,Liso,Marron,,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1095,Cachorro,Chico,Hembra,Liso,Dorado,,,Corto,Marron oscuro,Corto,Corta,,Caidas
+1100,Cachorro,Chico,Macho,Bicolor,Dorado,Marron,,Corto,Marron oscuro,Corto,Mediana,Medianas,Caidas
+3500,Adulto,Mediano,,Liso,Marron,,,,Marron oscuro,Mediano,Largo,Cortas,Caidas
+3505,Adulto,Grande,Macho,Liso,Marron,,,Corto,Marron oscuro,Mediano,Largo,Cortas,Caidas
+1116,Cachorro,Chico,Macho,,Blanco,Marron,,Corto,,,Mediana,Medianas,Caidas
+3507,,,Hembra,Liso,Dorado,,,Corto,Marron oscuro,Largo,Largo,Medianas,
+1121,Adulto,,Macho,,Blanco,Negro,,Largo,Marron oscuro,Corto,Mediana,Largas,Caidas
+3512,Adulto,Grande,,Liso,Negro,,,Corto,Marron oscuro,Largo,Largo,Medianas,Caidas
+3524,Adulto,Grande,,Bicolor,Blanco,Negro,,,Marron oscuro,Mediano,,Medianas,Caidas
+1122,,Grande,Hembra,Bicolor,Negro,Dorado,,Corto,,,Mediana,Largas,Paradas
+3528,,Grande,Hembra,Liso,,,,Corto,,Largo,Largo,Largas,Paradas
+1129,Cachorro,Mediano,Macho,Bicolor,Negro,Dorado,,,Marron oscuro,Mediano,Mediana,Medianas,Paradas
+3530,Adulto,Chico,Hembra,,Negro,Dorado,,Corto,Marron oscuro,Corto,Mediana,Medianas,Caidas
+1136,,Chico,Hembra,Liso,Dorado,,,Corto,Marron oscuro,Corto,Mediana,Medianas,Caidas
+3592,Adulto,Chico,Hembra,Liso,Gris,,,Largo,Marron oscuro,Mediano,Largo,Largas,Caidas
+1144,Adulto,Grande,Macho,Bicolor,,Blanco,,Corto,Marron oscuro,Mediano,,Largas,
+3595,Adulto,,Hembra,Tricolor,Blanco,Marron,Negro,Corto,Marron oscuro,Largo,Largo,Largas,Caidas
+1157,,Mediano,Macho,Bicolor,Blanco,Marron,,,Marron oscuro,Largo,,Medianas,Caidas
+3601,Adulto,Chico,Hembra,Liso,Blanco,,,Corto,Marron oscuro,Mediano,Cortada,Largas,
+3631,Adulto,Grande,,Liso,Blanco,,,Largo,Marron oscuro,Mediano,Largo,Medianas,Paradas
+1166,Adulto,Grande,,Liso,Blanco,,,,Marron oscuro,Mediano,Mediana,,Caidas
+3701,Adulto,Grande,Hembra,,Blanco,,,Mediano,Marron oscuro,Largo,Largo,Largas,Paradas
+1174,Cachorro,Chico,Macho,Liso,,,,Corto,Marron claro,Corto,Corta,Cortas,Caidas
+3752,Cachorro,Grande,Hembra,Liso,Negro,,,Corto,Marron claro,Mediano,Largo,Largas,Caidas
+3780,Adulto,Grande,Macho,Bicolor,Negro,,,,,Mediano,Largo,Largas,Caidas
+1183,Adulto,Chico,Hembra,Bicolor,Blanco,Dorado,,Largo,Marron claro,Corto,Corta,Cortas,Paradas
+3788,Adulto,Grande,Macho,,Blanco,,,Largo,Marron claro,Mediano,Largo,Medianas,Paradas
+1186,Adulto,Mediano,Hembra,,,,,Corto,Marron oscuro,Mediano,Mediana,Largas,Caidas
+3789,Adulto,Grande,Macho,,Negro,Marron,,Corto,Marron oscuro,Largo,Largo,Largas,Paradas
+1191,Adulto,Mediano,Macho,Bicolor,Marron,Blanco,,Corto,Marron claro,Mediano,Mediana,Cortas,Caidas
+3793,Adulto,Mediano,Macho,Liso,Negro,,,Corto,Marron oscuro,,Largo,Largas ,Caidas
+3809,,Mediano,,Bicolor,Gris,Negro,,Corto,Marron claro,,Largo,Medianas,Caidas
+1207,Cachorro,,Macho,Bicolor,Negro,Dorado,,Mediano,Marron oscuro,Mediano,Mediana,Largas,Paradas
+1215,,Chico,Macho,Tricolor,Blanco,Negro,Marron,Mediano,Marron oscuro,Mediano,Mediana,Largas,Caidas
+3848,Adulto,Chico,Hembra,,Blanco,,,Mediano,Marron oscuro,,Largo,Largas,Paradas
+3907,Adulto,Chico,Hembra,,Marron,,,,,Mediano,Largo,Largas ,
+1217,Adulto,Grande,Hembra,,,,Blanco,Corto,Marron claro,Largo,Mediana,Cortas,Caidas
+3910,Cachorro,Mediano,Hembra,Tricolor,Gris,Negro,Marron,Corto,Marron oscuro,Mediano,Mediana,Medianas,
+1219,Adulto,Mediano,Macho,Liso,Negro,,,Mediano,Marron oscuro,Mediano,Mediana,Largas,Caidas
+3913,Adulto,Grande,Hembra,Liso,Gris,,,Corto,Marron oscuro,Mediano,Largo,Medianas,
+1223,,Chico,Hembra,,Marron,Negro,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+3914,,Chico,,Liso,Dorado,,,Mediano,Marron oscuro,Mediano,,Medianas,Paradas
+1224,Adulto,Grande,Hembra,Bicolor,Dorado,Negro,,Corto,Marron oscuro,Largo,Mediana,Medianas,Caidas
+3917,Cachorro,,Macho,Bicolor,Blanco,Marron,,Mediano,Marron oscuro,Mediano,Mediana,,
+1227,Adulto,Mediano,Macho,Liso,Blanco,,,Mediano,,Mediano,Mediana,Medianas,Caidas
+3923,Adulto,Mediano,Hembra,Liso,,,,,Marron oscuro,Largo,Mediana,Medianas,
+3931,Adulto,Mediano,Hembra,Bicolor,Marron,Blanco,,Mediano,Celeste,Mediano,Largo,Medianas,Paradas
+1232,Adulto,Grande,Macho,Bicolor,Marron,Blanco,,Mediano,Marron oscuro,Mediano,,Medianas,Caidas
+3933,Adulto,Chico,,Liso,Negro,,,Largo,Marron oscuro,,,Medianas,Caidas
+3950,,,Macho,Liso,Marron,,,,Marron oscuro,Largo,Largo,Largas,
+1235,Adulto,Grande,Macho,Tricolor,Blanco,Negro,Marron,,Marron oscuro,Largo,,Medianas,Caidas
+3961,Adulto,Grande,Hembra,Bicolor,Negro,Marron,,Mediano,Marron oscuro,Largo,Largo,Largas,Paradas
+4026,Adulto,Chico,Hembra,Liso,Negro,,,Corto,Marron oscuro,,Largo,Medianas,Caidas
+1238,Adulto,Chico,Macho,Tricolor,Blanco,Negro,Marron,Corto,Marron oscuro,Corto,Corta,Medianas,Caidas
+4053,Adulto,Grande,Hembra,Liso,Blanco,,,Mediano,Marron oscuro,Mediano,Largo,Largas,Paradas
+1279,,Mediano,Macho,Bicolor,Negro,Dorado,,Mediano,Marron oscuro,,Corta,Largas,Paradas
+4073,Adulto,Muy Grande,Macho,Liso,Blanco,,,,Marron oscuro,Mediano,Largo,Largas,Caidas
+1329,Adulto,Chico,,Bicolor,Negro,Blanco,,Corto,Marron oscuro,Mediano,Mediana,,Caidas
+4077,,Chico,Macho,Bicolor,Negro,Dorado,,Corto,Marron oscuro,,Mediana,Largas,Paradas
+1343,,,Macho ,,Blanco,,,Mediano,Celeste,Mediano,Mediana,Medianas,Paradas
+1360,Adulto,Grande,Macho ,Bicolor,Negro,Marron,,Mediano,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1372,Adulto,Mediano,,Bicolor,Marron,Negro,,,Marron oscuro,Mediano,Mediana,Medianas,
+1373,Adulto,Chico,Macho,Bicolor,Blanco,Dorado,,Corto,Marron claro,Corto,Corta,Medianas,Caidas
+4102,Adulto,Muy Grande,Macho,Bicolor,Negro,Marron,,Corto,Marron oscuro,Largo,Largo,Largas,Caidas
+1377,Adulto,Chico,Macho,Bicolor,,Dorado,,,Marron oscuro,,Corta,Medianas,Caidas
+1381,Cachorro,Chico,,Bicolor,Blanco,Dorado,,Corto,Marron oscuro,Corto,Corta,Largas,Caidas
+4107,Adulto,Muy Grande,Macho,Bicolor,Blanco,Gris,,Corto,Marron oscuro,Largo,Largo,Medianas,Caidas
+1382,Adulto,Muy Grande,Macho,Bicolor,Marron,Negro,,Largo,Marron oscuro,,Mediana,Largas,Caidas
+4191,Adulto,Chico,,Liso,Dorado,,,Largo,Marron oscuro,Corto,Largo,Medianas,Caidas
+1385,Adulto,Chico,Hembra,Bicolor,Blanco,,,Mediano,Marron oscuro,Corto,Mediana,Medianas,Caidas
+4194,,Mediano,Hembra,Bicolor,Blanco,Negro,,Corto,,Mediano,Largo,Medianas,
+1387,Adulto,Grande,Macho,Liso,Dorado,,,Mediano,Marron oscuro,Largo,Mediana,Largas,Paradas
+4210,Adulto,Grande,Hembra,Bicolor,Marron ,,,,Marron oscuro,,Largo,Medianas,Caidas
+4229,Adulto,Mediano,Hembra,Bicolor,Marron,Blanco,,Mediano,Marron oscuro,,,,Caidas
+1395,Adulto,Mediano,Hembra,,Blanco,Marron,,Corto,Marron oscuro,,,Medianas,Caidas
+6000,Cachorro,Chico,Macho,Liso,Dorado,,,Mediano,Marron oscuro,,Corta,Medianas,Caidas
+4230,Adulto,Grande,Macho,Bicolor,Negro,,,Corto,Marron oscuro,Mediano,Mediana,Largas,Caidas
+4235,Adulto,Grande,Macho,Liso,Dorado,,,Corto,,,Largo,Medianas,
+1399,Adulto,Grande,Macho,,,,,Mediano,Marron oscuro,Mediano,,Largas,Caidas
+6004,,Mediano,Macho,Liso,Negro,,,Corto,Marron claro,Mediano,,Medianas,Caidas
+1401,,Mediano,Hembra,Bicolor,Blanco,Dorado,,Corto,Marron oscuro,Mediano,Mediana,Largas,Caidas
+6007,Adulto,Grande,Macho,Bicolor,Negro,Blanco,,Corto,Marron oscuro,Mediano,Largo,Medianas,Caidas
+4240,Adulto,Chico,Macho,,,,,,Marron oscuro,Mediano,Mediana,Largas,Caidas
+1409,Cachorro,Chico,Macho,,Negro,Marron,,Mediano,Marron oscuro,,Mediana,Largas,Paradas
+4243,Adulto,Grande,Hembra,Liso,Dorado,,,Corto,Marron claro,Mediano,Largo,Medianas,Caidas
+6010,Adulto,Mediano,Hembra,Bicolor,Negro,Blanco,,,Marron claro,,Largo,Cortas,Paradas
+1431,Adulto,Mediano,Macho,Bicolor,Negro,Blanco,,Mediano,Marron oscuro,Mediano,Mediana,Largas,Caidas
+4272,Adulto,Mediano,Hembra,Liso,Negro,,,Mediano,Marron oscuro,Mediano,Largo,Medianas,Paradas
+6012,Cachorro,Chico,Macho,Tricolor,Marron,Blanco,,Corto,Marron oscuro,,Corta,Medianas,
+4274,Adulto,Chico,Macho,Liso,Dorado,,,Largo,,Mediano,,Medianas,Paradas
+1432,Adulto,Grande,Hembra,Liso,Blanco,,,Mediano,Marron claro,Mediano,Mediana,Largas,Caidas
+6016,,Grande,,Liso,Blanco,,,Corto,,Mediano,Largo,Cortas,Caidas
+1434,Adulto,Mediano,Macho,Bicolor,Marron,Blanco,,Corto,,Mediano,Mediana,Medianas,Caidas
+4282,Adulto,,,Bicolor,Negro,Blanco,,Mediano,Marron claro,Mediano,,Medianas,Caidas
+6017,Cachorro,Chico,Hembra,,Negro,Blanco,,Mediano,Marron claro,Corto,,Medianas,
+4299,Adulto,Chico,,Bicolor,Negro,Marron,,Corto,Marron oscuro,Mediano,,Medianas,Caidas
+1444,Adulto,Chico,Hembra,Liso,,,,Mediano,Marron claro,Corto,Corta,Medianas,Caidas
+4303,Adulto,,Macho,Liso,Marron,,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Paradas
+4307,Adulto,Chico,,,Negro,,,Largo,,Mediano,,Largas,Caidas
+1452,Adulto,,Macho,,Blanco,Negro,,Largo,Marron oscuro,Mediano,Largo,Largas,Caidas
+6019,Adulto,Mediano,Macho,Tricolor,Blanco,Negro,Marron,Corto,Marron claro,Mediano,Corta,,Caidas
+4338,Adulto,Mediano,Hembra,,Marron,Negro,,Corto,Marron oscuro,Corto,Largo,Medianas,Caidas
+6020,Adulto,,,Liso,Blanco,,,Largo,,Corto,Mediana,Cortas,Caidas
+1460,Adulto,Grande,Macho,Bicolor,Marron,Blanco,,,Celeste,Largo,Largo,Largas,
+4340,Adulto,Chico,Macho,,Negro,Blanco,,Largo,Marron oscuro,Corto,Largo,Largas,Caidas
+6022,Adulto,Grande,Hembra,Bicolor,,Dorado,,Mediano,Marron claro,Largo,Corta,,Caidas
+1468,,Grande,Macho,Tricolor,Marron,Negro,Blanco,Corto,Marron oscuro,Largo,Mediana,,
+4341,Adulto,Grande,Macho,Bicolor,Blanco,Marron,,Corto,Marron oscuro,Mediano,Largo,Medianas,Caidas
+6025,Adulto,Grande,Macho,Bicolor,,Marron,,Corto,,Mediano,Mediana,Cortas,
+4642,Cachorro,Chico,Hembra,Bicolor,Blanco,,,Mediano,Celeste,Largo,Largo,Largas,Paradas
+1470,,Mediano,Hembra,Liso,Blanco,,,Corto,Marron claro,Mediano,Mediana,Medianas,Caidas
+4350,Adulto,Chico,Hembra,Bicolor,Negro,Dorado,,Corto,Marron oscuro,,Mediana,Medianas,Caidas
+6026,Adulto,Muy Grande,Macho,Bicolor,Blanco,Negro,,,,Largo,Largo,Cortas,Paradas
+4352,Adulto,,Hembra,Liso,Dorado,,,Largo,Marron oscuro,,Largo,,
+1476,Cachorro,Chico,Macho,Bicolor,Negro,Blanco,,Corto,Marron oscuro,Corto,Corta,Cortas,Caidas
+6027,Cachorro,,Macho,Liso,,,,,Marron oscuro,Corto,Corta,,Caidas
+4353,Adulto,Mediano,Hembra,Bicolor,Negro,Blanco,,Largo,,Mediano,Mediana,Largas,Caidas
+1477,Adulto,Grande,Macho,Tricolor,Marron,Negro,Blanco,Corto,Marron claro,Largo,Mediana,Medianas,Caidas
+6028,Adulto,Grande,,Liso,Marron,,,Corto,Marron oscuro,,Mediana,Medianas,
+4354,Adulto,Chico,Hembra,Liso,Dorado,,,Mediano,,,,Largas,Caidas
+1486,Adulto,Chico,Hembra,Bicolor,Blanco,Negro,,,Marron claro,Mediano,Corta,Largas,Caidas
+4385,Adulto,Mediano,Hembra,,Marron,,,,Marron oscuro,Largo,Largo,Largas,Paradas
+6030,Adulto,Grande,Macho,Liso,Blanco,,,Corto,Marron oscuro,Largo,Largo,Largas,Paradas
+1495,,Grande,,Bicolor,Negro,,,Mediano,Marron oscuro,Largo,Mediana,Medianas,Caidas
+4390,,Chico,Hembra,,Dorado,,,,Marron oscuro,Largo,Largo,,Caidas
+6038,Cachorro,Chico,Hembra,Liso,Marron,,,Corto,Marron oscuro,Corto,Mediana,Medianas,Paradas
+4391,,Mediano,Hembra,Bicolor,Blanco,Negro,,Corto,Marron oscuro,Mediano,Largo,Medianas,
+1498,Adulto,Grande,Macho,Bicolor,Blanco,Dorado,,Corto,Marron claro,Largo,Mediana,Largas,Paradas
+6040,Adulto,Mediano,,Bicolor,,,,Largo,Marron oscuro,Corto,Mediana,Medianas,Caidas
+4393,Adulto,Grande,Macho,Bicolor,Marron ,Negro,,Mediano,Marron oscuro,Largo,Largo,Largas,Paradas
+4397,Adulto,,Hembra,Tricolor,Marron,Negro,Blanco,,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+6041,Adulto,Grande,,Liso,,,,Corto,Marron oscuro,Largo,,Cortas,Paradas
+1508,,Chico,,Tricolor,Blanco,Negro,Marron,Mediano,Marron oscuro,,Mediana,,Caidas
+4400,Adulto,Muy Grande,Hembra,Bicolor,Blanco ,Marron,,,Marron oscuro,Largo,Largo,Cortas,Caidas
+6042,Cachorro,Chico,Macho,Bicolor,Negro,,,Corto,,Corto,Corta,Medianas,Caidas
+1509,Adulto,Muy Grande,Macho,Bicolor,Gris,,,,,Corto,Mediana,Cortas,Paradas
+4401,Adulto,Mediano,Hembra,Liso,Marron,,,Corto,Marron oscuro,Largo,Mediana,Cortas,Caidas
+6045,Adulto,Mediano,Macho,Bicolor,,,,,Marron oscuro,Corto,Largo,Medianas,Paradas
+4404,Adulto,Grande,Hembra,Bicolor,Negro,Marron,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1516,Cachorro,Chico,Macho,Bicolor,Negro,Blanco,,Corto,Marron oscuro,Mediano,Mediana,Cortas,Caidas
+1525,Adulto,Grande,Macho,,Dorado,Negro,,Mediano,Marron oscuro,Largo,,Largas,Paradas
+4407,Adulto,Chico,Macho,Bicolor,Blanco,Marron,,Mediano,Marron oscuro,,Mediana,Largas,
+6046,Adulto,Mediano,Hembra,Liso,Blanco,,,Corto,Marron oscuro,Mediano,,,Paradas
+4411,Adulto,Mediano,,Bicolor,Negro,Marron,,,Marron oscuro,Mediano,Mediana,,Caidas
+1526,Adulto,Chico,,Tricolor,Negro,Marron,Blanco,,Marron oscuro,,Corta,Medianas,Caidas
+4413,Adulto,Mediano,Hembra,Bicolor,Negro,Blanco,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+6047,Cachorro,Mediano,Hembra,Bicolor,Negro,Dorado,,Mediano,Marron oscuro,Largo,Mediana,Cortas,Paradas
+4416,Adulto,Chico,,Bicolor,Negro,Gris,,Mediano,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1529,Adulto,,,Liso,Dorado,,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+6049,Cachorro,Chico,Macho,Bicolor,Blanco,Negro,,Corto,Marron oscuro,Corto,Mediana,,Caidas
+4427,Adulto,Mediano,Macho,Bicolor,Negro,Marron,,Corto,Marron oscuro,Mediano,Largo,Medianas,Caidas
+1531,Cachorro,Chico,Hembra,,,,,Corto,Marron oscuro,Corto,Corta,Medianas,Caidas
+4434,Cachorro,Chico,Hembra,Bicolor,Blanco,Blanco,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+4436,,Chico,Hembra,Liso,Marron,,,Corto,Marron oscuro,Mediano,,Medianas,Paradas
+6051,,Grande,Hembra,Bicolor,,Marron,,Corto,Marron oscuro,Mediano,Largo,Cortas,Paradas
+1546,Adulto,Mediano,,Tricolor,Negro,Blanco,Marron,,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+4437,Adulto,,Hembra,Liso,Marron,,,Corto,Marron oscuro,Mediano,,Medianas,Paradas
+6055,,Grande,Macho,,Negro,,,Corto,,Corto,,Medianas,Caidas
+4464,Cachorro,Mediano,,,,Blanco,,Mediano,Marron oscuro,Mediano,,Medianas,Caidas
+1549,Adulto,Mediano,,Tricolor,Blanco,Negro,Marron,,Marron oscuro,Mediano,,Medianas,Caidas
+4465,Adulto,Grande,Hembra,Bicolor,Negro,,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+6064,,Grande,Macho,,Negro,Marron,Blanco,Corto,Marron oscuro,Mediano,Largo,Medianas,Caidas
+4466,Cachorro,Chico,,Liso,Marron,,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Paradas
+1564,,Muy Grande,Hembra,Bicolor,,Blanco,,Corto,Marron claro,Mediano,,Largas,Caidas
+4467,Cachorro,Chico,Macho,Bicolor,Blanco,Negro,,Corto,,Mediano,Mediana,Medianas,Caidas
+6065,Adulto,Grande,Macho,Liso,Negro,,,Mediano,Marron claro,Mediano,Mediana,Medianas,Paradas
+4468,Adulto,,Hembra,Bicolor,Blanco,Negro,,Mediano,Marron oscuro,,,Medianas,Caidas
+4473,Adulto,Grande,Hembra,Bicolor,Blanco,Marron,,Corto,Marron oscuro,Mediano,Mediana,,Caidas
+6066,Cachorro,Chico,Macho,Bicolor,Marron,,,Corto,Marron oscuro,Corto,Mediana,Largas,Caidas
+1593,Cachorro,Mediano,Macho,Tricolor,Blanco,Gris,Negro,Mediano,Marron oscuro,Largo,Mediana,,Paradas
+4478,Adulto,Mediano,Macho,Liso,Blanco,,,Mediano,Marron oscuro,Mediano,Largo,Medianas,Paradas
+4480,Adulto,Chico,Macho,Liso,Marron,,,Corto,Marron oscuro,Mediano,,Medianas,Paradas
+4491,Adulto,Chico,Macho,Liso,Blanco,,,Corto,Marron oscuro,Mediano,,Medianas,Paradas
+6067,,Grande,Hembra,Liso,,,,Mediano,,,Mediana,Medianas,Caidas
+1596,Adulto,Grande,Macho,Bicolor,Blanco,Negro,,Mediano,Celeste,Largo,Mediana,Medianas,Caidas
+4492,,Muy Grande,Macho,Bicolor,Negro,Blanco,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+6070,Cachorro,Chico,Macho,,Negro,Marron,,,Marron claro,Corto,Largo,Cortas,Caidas
+4502,Adulto,Chico,Macho,,Negro,Marron,,Corto,Marron oscuro,,Mediana,Medianas,Caidas
+6072,,Chico,Macho,Liso,Marron,,,Corto,Marron claro,Corto,Corta,Medianas,Caidas
+4512,Adulto,Grande,Hembra,Bicolor,,,,Mediano,Marron oscuro,Largo,Largo,Largas,Paradas
+4515,,Grande,,Bicolor,Negro,Marron,,Corto,,Largo,Largo,Largas,Paradas
+1640,Adulto,Muy Grande,Macho,Bicolor,Negro,Blanco,,,Marron oscuro,,Largo,Largas,Caidas
+4516,,Chico,Hembra,Bicolor,,Blanco,,Corto,Marron oscuro,Mediano,,Cortas,Caidas
+6073,Adulto,Grande,,Bicolor,Marron,Blanco,,Corto,Marron claro,Corto,Mediana,Medianas,Caidas
+4531,,Chico,Hembra,Liso,Marron,,,Largo,Marron oscuro,Mediano,Mediana,Cortas,Caidas
+1652,Adulto,Grande,Hembra,Tricolor,Gris,Blanco,Marron,Largo,Marron oscuro,Largo,Mediana,Medianas,Paradas
+4535,Adulto,Chico,Hembra,Liso,,,,,Marron oscuro,Mediano,Mediana,Medianas,Paradas
+6075,Adulto,,,Liso,Negro,,,Corto,Marron oscuro,Corto,Largo,Medianas,Paradas
+4537,Adulto,Grande,Macho,Liso,Negro,,,Corto,Marron oscuro,Mediano,,Medianas,Caidas
+4539,Adulto,Mediano,Macho,Liso,Dorado,,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1682,Adulto,Grande,Macho,Bicolor,Negro,Marron,,Corto,Marron oscuro,Mediano,Cortada,Medianas,Caidas
+6078,Adulto,Grande,Macho,,Marron,Blanco,,Corto,Marron oscuro,Mediano,,,
+4541,Adulto,Grande,Macho,Bicolor,Negro,Marron,,Corto,,,,Medianas,Caidas
+4546,Cachorro,Chico,Macho,Bicolor,Marron,Blanco,,Corto,Marron oscuro,Mediano,Largo,Medianas,
+4547,Adulto,,,Bicolor,Marron,Negro,,Largo,Marron oscuro,Mediano,Cortada,Medianas,Paradas
+1693,Adulto,Mediano,Macho,Liso,Dorado,,,Corto,Marron claro,Mediano,Mediana,Largas,Caidas
+6079,Adulto,Mediano,Macho,Liso,Marron,,,Corto,Marron claro,Largo,Mediana,Largas,Caidas
+4551,Adulto,Grande,Hembra,Liso,Marron,,,Corto,Marron oscuro,Corto,,Medianas,
+1701,Adulto,Mediano,Hembra,Liso,Dorado,,,Corto,,Mediano,,,Caidas
+1702,Adulto,Mediano,,Liso,Blanco,,,,,Mediano,,Medianas,Caidas
+1706,Cachorro,,Macho,Bicolor,Dorado,Marron,,,Marron claro,Mediano,Mediana,Medianas,Caidas
+1722,,Grande,Macho,Liso,Blanco,,,Corto,Marron claro,Mediano,Mediana,Medianas,Caidas
+1730,Cachorro,Mediano,Macho,Bicolor,Dorado,Blanco,,Corto,Marron claro,Mediano,Corta,Medianas,Caidas
+1732,Adulto,Grande,Macho,Bicolor,Marron,Blanco,,Corto,Marron oscuro,,Cortada,Cortada,Paradas
+1737,Cachorro,Mediano,Hembra,Bicolor,Marron,Blanco,,,,,,Medianas,Caidas
+1761,Adulto,Mediano,,Bicolor,Negro,Blanco,,Largo,,Mediano,,Largas,Caidas
+1766,Adulto,Grande,Macho,Liso,,,,Corto,Marron oscuro,Mediano,Mediana,Largas,
+1767,Adulto,Grande,Macho,,Blanco,Negro,,Mediano,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1776,,Chico,Macho,,Blanco,,,Corto,Marron oscuro,,Mediana,Medianas,Caidas
+1782,,Mediano,,,Marron,Negro,Blanco,,Marron oscuro,Mediano,Mediana,Largas,Caidas
+1789,,Mediano,Macho,Bicolor,Negro,Marron,,Corto,Marron oscuro,,Mediana,Medianas,Caidas
+1800,Cachorro,Chico,Hembra,Bicolor,Dorado,Blanco,,Corto,Marron claro,Mediano,,Medianas,Caidas
+1801,Cachorro,Chico,Hembra,Tricolor,Negro,Blanco,Marron,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1807,Adulto,Chico,Macho,Liso,Dorado,,,Largo,Marron oscuro,Mediano,Corta,,Caidas
+1821,Adulto,Grande,Macho,Liso,Negro,,,Largo,Marron oscuro,Mediano,Largo,Largas,Caidas
+1837,Adulto,Grande,,Bicolor,Negro,,,Mediano,Marron oscuro,Mediano,Mediana,,Caidas
+1838,Adulto,Grande,Macho,,Negro,,,Mediano,Marron claro,Mediano,Mediana,,Caidas
+1849,Adulto,Mediano,Hembra,,Negro,Dorado,,Largo,Marron oscuro,Mediano,Corta,Largas,
+1851,Adulto,,,Liso,Marron,,,Corto,Marron oscuro,Mediano,Mediana,Largas,
+1863,,Chico,Macho,Bicolor,Blanco,Marron,,Corto,Marron claro,Mediano,,Largas,Caidas
+1872,Adulto,Grande,Macho,,Negro,Dorado,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1874,Adulto,Grande,Hembra,,Dorado,Blanco,,,Marron oscuro,Largo,Mediana,Cortas,Caidas
+1884,Cachorro,Chico,Macho,Bicolor,Dorado,Negro,,Mediano,,Largo,Largo,Largas,
+1886,Adulto,Chico,Macho,Liso,,,,Largo,Marron oscuro,Mediano,Mediana,,
+1902,Cachorro,Mediano,,Bicolor,Blanco,Negro,,Mediano,,Mediano,Mediana,Medianas,Paradas
+1906,,Chico,Macho,Liso,Blanco,,,Largo,Celeste,,Corta,Cortas,Caidas
+1908,Adulto,Chico,Hembra,Tricolor,Dorado,Negro,,Corto,Marron oscuro,Corto,Corta,Largas,Paradas
+1910,Adulto,Chico,Macho,Bicolor,Dorado,,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1919,,Mediano,Macho,Tricolor,Negro,Blanco,Marron,Largo,Marron oscuro,Corto,,,Caidas
+1940,Cachorro,Mediano,,Liso,Marron,,,Corto,Marron claro,Largo,Mediana,Cortas,Caidas
+1950,Adulto,,Hembra,Bicolor,Negro,Marron,,Largo,,Mediano,Corta,Largas,Caidas
+1954,Cachorro,Mediano,Macho,Liso,Blanco,,,Corto,Marron claro,Mediano,Mediana,Medianas,Paradas

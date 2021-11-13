@@ -7,6 +7,7 @@ from mascota_formatter import MascotaFormatter
 class PerrosPrediction:
     def __init__(self):
         self.model = self.import_model()
+        self.mascotas_labels = None
         self.mascotaFormatter = MascotaFormatter()
         self.predictPool = None
 
@@ -45,10 +46,10 @@ class PerrosPrediction:
                         label=mascotas_test_ids,
                         cat_features=categorical_features_indices)
 
-    def load_test_data_from_df(self, mascotas_dict):
-        # dataset_mascota = pandas.read_csv('../data/perrosTestComplete.csv')
-        dataset_mascota = self.mascotaFormatter.format_caracteristicas_to_csv(
-            mascotas_dict)
+    def load_test_data_from_df(self):
+        dataset_mascota = pandas.read_csv('../data/perros_train_v3.csv')
+        # dataset_mascota = self.mascotaFormatter.format_caracteristicas_to_csv(
+        #     mascotas_dict)
         null_value_stats = dataset_mascota.isnull().sum(axis=0)
         null_value_stats[null_value_stats != 0]
 
@@ -87,6 +88,26 @@ class PerrosPrediction:
 
         return mascotas_similares
 
+    def get_all_predictions_dict(self, predictions):
+        prediction = predictions[0]
+        mascotas_ids = self.get_mascotas_ids()
+        mascotas_similares_all = dict()
+        # [ []...[] ... [] ]
+
+        # print(predictions)
+        for prediction_index in range(len(predictions)):
+            prediction = predictions[prediction_index]
+            mascota_id = mascotas_ids[prediction_index]
+            mascotas_similares = dict()
+
+            for prediction_prob_index in range(len(prediction)):
+                mascotas_similares[str(mascotas_ids[prediction_prob_index])] = prediction[prediction_prob_index]
+
+            mascotas_similares_all[mascota_id] = mascotas_similares
+            # mascotas_similares.clear()
+
+        return mascotas_similares_all
+
     def sort_dictionary(self, dictionary):
         sorted_dictionary = sorted(dictionary.items(), key=lambda x: x[0], reverse=True)
         return sorted_dictionary
@@ -106,6 +127,13 @@ class PerrosPrediction:
         self.sort_dictionary(predictions_dict)
         return predictions_dict
 
+    def get_predictions_all(self, pool):
+        prediction = self.model.predict_proba(pool)
+
+        predictions_dict = self.get_all_predictions_dict(prediction)
+        self.sort_dictionary(predictions_dict)
+        return predictions_dict
+
     def get_predict_data_from_json(self, caracteristicas):
         predict_pool = self.load_test_data(caracteristicas)
         # self.load_test_data(caracteristicas)
@@ -117,3 +145,9 @@ class PerrosPrediction:
         # self.load_test_data(caracteristicas)
 
         return self.get_predictions(predict_pool)
+
+    def get_predict_data_all(self):
+        predict_pool = self.load_test_data_from_df()
+        return self.get_predictions_all(predict_pool)
+        # self.load_test_data(caracteristicas)
+

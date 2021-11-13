@@ -61,14 +61,6 @@ class MascotaFormatter:
         data.sort(key=order_by_prob, reverse=True)
 
         an_array = np.array(data)
-        '''[{
-            "id": 23,
-            "probabilidad": 0.83643
-        }, 
-        {
-            "id": 23,
-            "probabilidad": 0.83643
-        }]'''
 
         for index in range(len(an_array)):
             mascota_id = an_array[index][0]

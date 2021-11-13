@@ -1,0 +1,827 @@
+//1
+{
+    "mascota": {
+        "nombre": "1",
+        "especie": {
+            "nombre": "Perro"
+        },
+        "valores": [
+            {
+                "nombre": "Adulto",
+                "caracteristica": {
+                    "nombre": "Edad"
+                }
+            },
+            {
+                "nombre": "Mediano",
+                "caracteristica": {
+                    "nombre": "Tamaño"
+                }
+            },
+            {
+                "nombre": "Macho",
+                "caracteristica": {
+                    "nombre": "Sexo"
+                }
+            },
+            {
+                "nombre": "Bicolor",
+                "caracteristica": {
+                    "nombre": "Patron de pelaje"
+                }
+            },
+            {
+                "nombre": "Blanco",
+                "caracteristica": {
+                    "nombre": "Color de pelaje 1"
+                }
+            },
+            {
+                "nombre": "Negro",
+                "caracteristica": {
+                    "nombre": "Color de pelaje 2"
+                }
+            },
+            {
+                "nombre": "Corto",
+                "caracteristica": {
+                    "nombre": "Largo de pelaje"
+                }
+            },
+            {
+                "nombre": "Marron oscuro",
+                "caracteristica": {
+                    "nombre": "Color de ojos"
+                }
+            },
+            {
+                "nombre": "Corto",
+                "caracteristica": {
+                    "nombre": "Largo de hocico"
+                }
+            },
+            {
+                "nombre": "Corta",
+                "caracteristica": {
+                    "nombre": "Largo de cola"
+                }
+            },
+            {
+                "nombre": "Cortas",
+                "caracteristica": {
+                    "nombre": "Largo de orejas"
+                }
+            },
+            {
+                "nombre": "Caidas",
+                "caracteristica": {
+                    "nombre": "Tipo de orejas"
+                }
+            }
+        ]
+    }
+}
+
+//17
+{
+    "mascota": {
+        "nombre": "17",
+        "especie": {
+            "nombre": "Perro"
+        },
+        "valores": [
+            {
+                "nombre": "Adulto",
+                "caracteristica": {
+                    "nombre": "Edad"
+                }
+            },
+            {
+                "nombre": "Chico",
+                "caracteristica": {
+                    "nombre": "Tamaño"
+                }
+            },
+            {
+                "nombre": "Macho",
+                "caracteristica": {
+                    "nombre": "Sexo"
+                }
+            },
+            {
+                "nombre": "Liso",
+                "caracteristica": {
+                    "nombre": "Patron de pelaje"
+                }
+            },
+            {
+                "nombre": "Marron",
+                "caracteristica": {
+                    "nombre": "Color de pelaje 1"
+                }
+            },
+            {
+                "nombre": "Corto",
+                "caracteristica": {
+                    "nombre": "Largo de pelaje"
+                }
+            },
+            {
+                "nombre": "Marron oscuro",
+                "caracteristica": {
+                    "nombre": "Color de ojos"
+                }
+            },
+            {
+                "nombre": "Corto",
+                "caracteristica": {
+                    "nombre": "Largo de hocico"
+                }
+            },
+            {
+                "nombre": "Corta",
+                "caracteristica": {
+                    "nombre": "Largo de cola"
+                }
+            },
+            {
+                "nombre": "Largas",
+                "caracteristica": {
+                    "nombre": "Largo de orejas"
+                }
+            },
+            {
+                "nombre": "Caidas",
+                "caracteristica": {
+                    "nombre": "Tipo de orejas"
+                }
+            }
+        ]
+    }
+}
+
+//26
+{
+    "mascota": {
+        "nombre": "26",
+        "especie": {
+            "nombre": "Perro"
+        },
+        "valores": [
+            {
+                "nombre": "Adulto",
+                "caracteristica": {
+                    "nombre": "Edad"
+                }
+            },
+            {
+                "nombre": "Grande",
+                "caracteristica": {
+                    "nombre": "Tamaño"
+                }
+            },
+            {
+                "nombre": "Macho",
+                "caracteristica": {
+                    "nombre": "Sexo"
+                }
+            },
+            {
+                "nombre": "Bicolor",
+                "caracteristica": {
+                    "nombre": "Patron de pelaje"
+                }
+            },
+            {
+                "nombre": "Negro",
+                "caracteristica": {
+                    "nombre": "Color de pelaje 1"
+                }
+            },
+            {
+                "nombre": "Blanco",
+                "caracteristica": {
+                    "nombre": "Color de pelaje 2"
+                }
+            },
+            {
+                "nombre": "Corto",
+                "caracteristica": {
+                    "nombre": "Largo de pelaje"
+                }
+            },
+            {
+                "nombre": "Marron oscuro",
+                "caracteristica": {
+                    "nombre": "Color de ojos"
+                }
+            },
+            {
+                "nombre": "Largo",
+                "caracteristica": {
+                    "nombre": "Largo de hocico"
+                }
+            },
+            {
+                "nombre": "Corta",
+                "caracteristica": {
+                    "nombre": "Largo de cola"
+                }
+            },
+            {
+                "nombre": "Medianas",
+                "caracteristica": {
+                    "nombre": "Largo de orejas"
+                }
+            },
+            {
+                "nombre": "Caidas",
+                "caracteristica": {
+                    "nombre": "Tipo de orejas"
+                }
+            }
+        ]
+    }
+}
+
+//1722
+{
+    "mascota": {
+        "nombre": "1722",
+        "especie": {
+            "nombre": "Perro"
+        },
+        "valores": [
+            {
+                "nombre": "Adulto",
+                "caracteristica": {
+                    "nombre": "Edad"
+                }
+            },
+            {
+                "nombre": "Grande",
+                "caracteristica": {
+                    "nombre": "Tamaño"
+                }
+            },
+            {
+                "nombre": "Macho",
+                "caracteristica": {
+                    "nombre": "Sexo"
+                }
+            },
+            {
+                "nombre": "Liso",
+                "caracteristica": {
+                    "nombre": "Patron de pelaje"
+                }
+            },
+            {
+                "nombre": "Blanco",
+                "caracteristica": {
+                    "nombre": "Color de pelaje 1"
+                }
+            },
+            {
+                "nombre": "Corto",
+                "caracteristica": {
+                    "nombre": "Largo de pelaje"
+                }
+            },
+            {
+                "nombre": "Marron claro",
+                "caracteristica": {
+                    "nombre": "Color de ojos"
+                }
+            },
+            {
+                "nombre": "Mediano",
+                "caracteristica": {
+                    "nombre": "Largo de hocico"
+                }
+            },
+            {
+                "nombre": "Mediana",
+                "caracteristica": {
+                    "nombre": "Largo de cola"
+                }
+            },
+            {
+                "nombre": "Medianas",
+                "caracteristica": {
+                    "nombre": "Largo de orejas"
+                }
+            },
+            {
+                "nombre": "Caidas",
+                "caracteristica": {
+                    "nombre": "Tipo de orejas"
+                }
+            }
+        ]
+    }
+}
+
+//1902
+{
+    "mascota": {
+        "nombre": "1902",
+        "especie": {
+            "nombre": "Perro"
+        },
+        "valores": [
+            {
+                "nombre": "Cachorro",
+                "caracteristica": {
+                    "nombre": "Edad"
+                }
+            },
+            {
+                "nombre": "Mediano",
+                "caracteristica": {
+                    "nombre": "Tamaño"
+                }
+            },
+            {
+                "nombre": "Macho",
+                "caracteristica": {
+                    "nombre": "Sexo"
+                }
+            },
+            {
+                "nombre": "Bicolor",
+                "caracteristica": {
+                    "nombre": "Patron de pelaje"
+                }
+            },
+            {
+                "nombre": "Blanco",
+                "caracteristica": {
+                    "nombre": "Color de pelaje 1"
+                }
+            },
+            {
+                "nombre": "Negro",
+                "caracteristica": {
+                    "nombre": "Color de pelaje 2"
+                }
+            },
+            {
+                "nombre": "Mediano",
+                "caracteristica": {
+                    "nombre": "Largo de pelaje"
+                }
+            },
+            {
+                "nombre": "Celeste",
+                "caracteristica": {
+                    "nombre": "Color de ojos"
+                }
+            },
+            {
+                "nombre": "Mediano",
+                "caracteristica": {
+                    "nombre": "Largo de hocico"
+                }
+            },
+            {
+                "nombre": "Mediana",
+                "caracteristica": {
+                    "nombre": "Largo de cola"
+                }
+            },
+            {
+                "nombre": "Medianas",
+                "caracteristica": {
+                    "nombre": "Largo de orejas"
+                }
+            },
+            {
+                "nombre": "Paradas",
+                "caracteristica": {
+                    "nombre": "Tipo de orejas"
+                }
+            }
+        ]
+    }
+}
+
+//1906
+{
+    "mascota": {
+        "nombre": "1906",
+        "especie": {
+            "nombre": "Perro"
+        },
+        "valores": [
+            {
+                "nombre": "Adulto",
+                "caracteristica": {
+                    "nombre": "Edad"
+                }
+            },
+            {
+                "nombre": "Chico",
+                "caracteristica": {
+                    "nombre": "Tamaño"
+                }
+            },
+            {
+                "nombre": "Macho",
+                "caracteristica": {
+                    "nombre": "Sexo"
+                }
+            },
+            {
+                "nombre": "Liso",
+                "caracteristica": {
+                    "nombre": "Patron de pelaje"
+                }
+            },
+            {
+                "nombre": "Blanco",
+                "caracteristica": {
+                    "nombre": "Color de pelaje 1"
+                }
+            },
+            {
+                "nombre": "Largo",
+                "caracteristica": {
+                    "nombre": "Largo de pelaje"
+                }
+            },
+            {
+                "nombre": "Celeste",
+                "caracteristica": {
+                    "nombre": "Color de ojos"
+                }
+            },
+            {
+                "nombre": "Corto",
+                "caracteristica": {
+                    "nombre": "Largo de hocico"
+                }
+            },
+            {
+                "nombre": "Corta",
+                "caracteristica": {
+                    "nombre": "Largo de cola"
+                }
+            },
+            {
+                "nombre": "Cortas",
+                "caracteristica": {
+                    "nombre": "Largo de orejas"
+                }
+            },
+            {
+                "nombre": "Caidas",
+                "caracteristica": {
+                    "nombre": "Tipo de orejas"
+                }
+            }
+        ]
+    }
+}
+
+//4400
+{
+    "mascota": {
+        "nombre": "4400",
+        "especie": {
+            "nombre": "Perro"
+        },
+        "valores": [
+            {
+                "nombre": "Adulto",
+                "caracteristica": {
+                    "nombre": "Edad"
+                }
+            },
+            {
+                "nombre": "Muy Grande",
+                "caracteristica": {
+                    "nombre": "Tamaño"
+                }
+            },
+            {
+                "nombre": "Hembra",
+                "caracteristica": {
+                    "nombre": "Sexo"
+                }
+            },
+            {
+                "nombre": "Bicolor",
+                "caracteristica": {
+                    "nombre": "Patron de pelaje"
+                }
+            },
+            {
+                "nombre": "Blanco",
+                "caracteristica": {
+                    "nombre": "Color de pelaje 1"
+                }
+            },
+            {
+                "nombre": "Marron",
+                "caracteristica": {
+                    "nombre": "Color de pelaje 2"
+                }
+            },
+            {
+                "nombre": "Largo",
+                "caracteristica": {
+                    "nombre": "Largo de pelaje"
+                }
+            },
+            {
+                "nombre": "Marron oscuro",
+                "caracteristica": {
+                    "nombre": "Color de ojos"
+                }
+            },
+            {
+                "nombre": "Largo",
+                "caracteristica": {
+                    "nombre": "Largo de hocico"
+                }
+            },
+            {
+                "nombre": "Largo",
+                "caracteristica": {
+                    "nombre": "Largo de cola"
+                }
+            },
+            {
+                "nombre": "Cortas",
+                "caracteristica": {
+                    "nombre": "Largo de orejas"
+                }
+            },
+            {
+                "nombre": "Caidas",
+                "caracteristica": {
+                    "nombre": "Tipo de orejas"
+                }
+            }
+        ]
+    }
+}
+
+//6012
+{
+    "mascota": {
+        "nombre": "6012",
+        "especie": {
+            "nombre": "Perro"
+        },
+        "valores": [
+            {
+                "nombre": "Cachorro",
+                "caracteristica": {
+                    "nombre": "Edad"
+                }
+            },
+            {
+                "nombre": "Chico",
+                "caracteristica": {
+                    "nombre": "Tamaño"
+                }
+            },
+            {
+                "nombre": "Macho",
+                "caracteristica": {
+                    "nombre": "Sexo"
+                }
+            },
+            {
+                "nombre": "Tricolor",
+                "caracteristica": {
+                    "nombre": "Patron de pelaje"
+                }
+            },
+            {
+                "nombre": "Marron",
+                "caracteristica": {
+                    "nombre": "Color de pelaje 1"
+                }
+            },
+            {
+                "nombre": "Blanco",
+                "caracteristica": {
+                    "nombre": "Color de pelaje 2"
+                }
+            },
+            {
+                "nombre": "Negro",
+                "caracteristica": {
+                    "nombre": "Color de pelaje 3"
+                }
+            },
+            {
+                "nombre": "Corto",
+                "caracteristica": {
+                    "nombre": "Largo de pelaje"
+                }
+            },
+            {
+                "nombre": "Marron oscuro",
+                "caracteristica": {
+                    "nombre": "Color de ojos"
+                }
+            },
+            {
+                "nombre": "Mediano",
+                "caracteristica": {
+                    "nombre": "Largo de hocico"
+                }
+            },
+            {
+                "nombre": "Corta",
+                "caracteristica": {
+                    "nombre": "Largo de cola"
+                }
+            },
+            {
+                "nombre": "Medianas",
+                "caracteristica": {
+                    "nombre": "Largo de orejas"
+                }
+            },
+            {
+                "nombre": "Caidas",
+                "caracteristica": {
+                    "nombre": "Tipo de orejas"
+                }
+            }
+        ]
+    }
+}
+
+//6026
+{
+    "mascota": {
+        "nombre": "6026",
+        "especie": {
+            "nombre": "Perro"
+        },
+        "valores": [
+            {
+                "nombre": "Adulto",
+                "caracteristica": {
+                    "nombre": "Edad"
+                }
+            },
+            {
+                "nombre": "Muy Grande",
+                "caracteristica": {
+                    "nombre": "Tamaño"
+                }
+            },
+            {
+                "nombre": "Macho",
+                "caracteristica": {
+                    "nombre": "Sexo"
+                }
+            },
+            {
+                "nombre": "Bicolor",
+                "caracteristica": {
+                    "nombre": "Patron de pelaje"
+                }
+            },
+            {
+                "nombre": "Blanco",
+                "caracteristica": {
+                    "nombre": "Color de pelaje 1"
+                }
+            },
+            {
+                "nombre": "Negro",
+                "caracteristica": {
+                    "nombre": "Color de pelaje 2"
+                }
+            },
+            {
+                "nombre": "Corto",
+                "caracteristica": {
+                    "nombre": "Largo de pelaje"
+                }
+            },
+            {
+                "nombre": "Celeste",
+                "caracteristica": {
+                    "nombre": "Color de ojos"
+                }
+            },
+            {
+                "nombre": "Largo",
+                "caracteristica": {
+                    "nombre": "Largo de hocico"
+                }
+            },
+            {
+                "nombre": "Largo",
+                "caracteristica": {
+                    "nombre": "Largo de cola"
+                }
+            },
+            {
+                "nombre": "Cortas",
+                "caracteristica": {
+                    "nombre": "Largo de orejas"
+                }
+            },
+            {
+                "nombre": "Paradas",
+                "caracteristica": {
+                    "nombre": "Tipo de orejas"
+                }
+            }
+        ]
+    }
+}
+
+//6066
+{
+    "mascota": {
+        "nombre": "6066",
+        "especie": {
+            "nombre": "Perro"
+        },
+        "valores": [
+            {
+                "nombre": "Cachorro",
+                "caracteristica": {
+                    "nombre": "Edad"
+                }
+            },
+            {
+                "nombre": "Chico",
+                "caracteristica": {
+                    "nombre": "Tamaño"
+                }
+            },
+            {
+                "nombre": "Macho",
+                "caracteristica": {
+                    "nombre": "Sexo"
+                }
+            },
+            {
+                "nombre": "Bicolor",
+                "caracteristica": {
+                    "nombre": "Patron de pelaje"
+                }
+            },
+            {
+                "nombre": "Marron",
+                "caracteristica": {
+                    "nombre": "Color de pelaje 1"
+                }
+            },
+            {
+                "nombre": "Blanco",
+                "caracteristica": {
+                    "nombre": "Color de pelaje 2"
+                }
+            },
+            {
+                "nombre": "Corto",
+                "caracteristica": {
+                    "nombre": "Largo de pelaje"
+                }
+            },
+            {
+                "nombre": "Marron oscuro",
+                "caracteristica": {
+                    "nombre": "Color de ojos"
+                }
+            },
+            {
+                "nombre": "Corto",
+                "caracteristica": {
+                    "nombre": "Largo de hocico"
+                }
+            },
+            {
+                "nombre": "Mediana",
+                "caracteristica": {
+                    "nombre": "Largo de cola"
+                }
+            },
+            {
+                "nombre": "Largas",
+                "caracteristica": {
+                    "nombre": "Largo de orejas"
+                }
+            },
+            {
+                "nombre": "Caidas",
+                "caracteristica": {
+                    "nombre": "Tipo de orejas"
+                }
+            }
+        ]
+    }
+}
