@@ -71,7 +71,7 @@ class PerrosPrediction:
         # model_file_name = "../models/modeldeep3inci2000.cbm"
         # model_file_name = "../models/withValidation/modelD350_mascota.cbm"
         # model_file_name = "../models/withValidation/modelD5it2000SinBestModel.cbm"
-        model_file_name = "../models/Teo/modelD5it3000Accuracy.cbm"
+        model_file_name = "../models/Teo/modelD6it100Incomplete.cbm"
         model = CatBoostClassifier().load_model(
             model_file_name, format='cbm')
         

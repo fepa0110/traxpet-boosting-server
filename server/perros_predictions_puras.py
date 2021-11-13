@@ -47,7 +47,9 @@ class PerrosPrediction:
                         cat_features=categorical_features_indices)
 
     def load_test_data_from_df(self):
-        dataset_mascota = pandas.read_csv('../data/perros_train_v3.csv')
+        # dataset_mascota = pandas.read_csv('../data/perros_train_v3.csv')
+        dataset_mascota = pandas.read_csv(
+            '../data/perrosTrainAllInComplete.csv')
         # dataset_mascota = self.mascotaFormatter.format_caracteristicas_to_csv(
         #     mascotas_dict)
         null_value_stats = dataset_mascota.isnull().sum(axis=0)
@@ -72,7 +74,7 @@ class PerrosPrediction:
         # model_file_name = "../models/modeldeep3inci2000.cbm"
         # model_file_name = "../models/withValidation/modelD350_mascota.cbm"
         # model_file_name = "../models/withValidation/modelD5it2000SinBestModel.cbm"
-        model_file_name = "../models/Teo/modelD5it3000Accuracy.cbm"
+        model_file_name = "../models/Teo/modelD6it100Incomplete.cbm"
         model = CatBoostClassifier().load_model(
             model_file_name, format='cbm')
         
