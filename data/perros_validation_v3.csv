@@ -117,12 +117,12 @@ Mascota,Edad,Tamaño,Sexo,Patron de pelaje,Color de pelaje 1,Color de pelaje 2,C
 1186,Adulto,Mediano,Hembra,Tricolor,Blanco,,,Corto,Marron oscuro,Mediano,Mediana,Largas,Caidas
 3789,Adulto,Grande,Macho,Bicolor,Negro,Marron,,Corto,Marron oscuro,Largo,Largo,Largas,Paradas
 1191,Adulto,Mediano,Macho,Bicolor,Marron,Blanco,,Corto,Marron claro,Mediano,Mediana,Cortas,Caidas
-3793,Adulto,Mediano,Macho,Liso,Negro,,,Corto,Marron oscuro,Mediano,Largo,Largas ,Caidas
+3793,Adulto,Mediano,Macho,Liso,Negro,,,Corto,Marron oscuro,Mediano,Largo,Largas,Caidas
 3809,Adulto,Mediano,Macho,Bicolor,Gris,Negro,,Corto,Marron claro,Mediano,Largo,Medianas,Caidas
 1207,Cachorro,Mediano,Macho,Bicolor,Negro,Dorado,,Mediano,Marron oscuro,Mediano,Mediana,Largas,Paradas
 1215,Cachorro,Chico,Macho,Tricolor,Blanco,Negro,Marron,Mediano,Marron oscuro,Mediano,Mediana,Largas,Caidas
 3848,Adulto,Chico,Hembra,Liso,Blanco,,,Mediano,Marron oscuro,Mediano,Largo,Largas,Paradas
-3907,Adulto,Chico,Hembra,Liso,Marron,,,Corto,Marron claro,Mediano,Largo,Largas ,Paradas
+3907,Adulto,Chico,Hembra,Liso,Marron,,,Corto,Marron claro,Mediano,Largo,Largas,Paradas
 1217,Adulto,Grande,Hembra,Tricolor,Dorado,Negro,Blanco,Corto,Marron claro,Largo,Mediana,Cortas,Caidas
 3910,Cachorro,Mediano,Hembra,Tricolor,Gris,Negro,Marron,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
 1219,Adulto,Mediano,Macho,Liso,Negro,,,Mediano,Marron oscuro,Mediano,Mediana,Largas,Caidas
@@ -146,8 +146,8 @@ Mascota,Edad,Tamaño,Sexo,Patron de pelaje,Color de pelaje 1,Color de pelaje 2,C
 4073,Adulto,Muy Grande,Macho,Liso,Blanco,,,Largo,Marron oscuro,Mediano,Largo,Largas,Caidas
 1329,Adulto,Chico,Macho,Bicolor,Negro,Blanco,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
 4077,Adulto,Chico,Macho,Bicolor,Negro,Dorado,,Corto,Marron oscuro,Corto,Mediana,Largas,Paradas
-1343,Adulto,Mediano,Macho ,Liso,Blanco,,,Mediano,Celeste,Mediano,Mediana,Medianas,Paradas
-1360,Adulto,Grande,Macho ,Bicolor,Negro,Marron,,Mediano,Marron oscuro,Mediano,Mediana,Medianas,Caidas
+1343,Adulto,Mediano,Macho,Liso,Blanco,,,Mediano,Celeste,Mediano,Mediana,Medianas,Paradas
+1360,Adulto,Grande,Macho,Bicolor,Negro,Marron,,Mediano,Marron oscuro,Mediano,Mediana,Medianas,Caidas
 1372,Adulto,Mediano,Hembra,Bicolor,Marron,Negro,,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
 1373,Adulto,Chico,Macho,Bicolor,Blanco,Dorado,,Corto,Marron claro,Corto,Corta,Medianas,Caidas
 4102,Adulto,Muy Grande,Macho,Bicolor,Negro,Marron,,Corto,Marron oscuro,Largo,Largo,Largas,Caidas
@@ -159,7 +159,7 @@ Mascota,Edad,Tamaño,Sexo,Patron de pelaje,Color de pelaje 1,Color de pelaje 2,C
 1385,Adulto,Chico,Hembra,Bicolor,Blanco,Negro,,Mediano,Marron oscuro,Corto,Mediana,Medianas,Caidas
 4194,Cachorro,Mediano,Hembra,Bicolor,Blanco,Negro,,Corto,Marron oscuro,Mediano,Largo,Medianas,Caidas
 1387,Adulto,Grande,Macho,Liso,Dorado,,,Mediano,Marron oscuro,Largo,Mediana,Largas,Paradas
-4210,Adulto,Grande,Hembra,Bicolor,Marron ,Blanco,,Corto,Marron oscuro,Mediano,Largo,Medianas,Caidas
+4210,Adulto,Grande,Hembra,Bicolor,Marron,Blanco,,Corto,Marron oscuro,Mediano,Largo,Medianas,Caidas
 4229,Adulto,Mediano,Hembra,Bicolor,Marron,Blanco,,Mediano,Marron oscuro,Mediano,Mediana,Medianas,Caidas
 1395,Adulto,Mediano,Hembra,Bicolor,Blanco,Marron,,Corto,Marron oscuro,Mediano,Corta,Medianas,Caidas
 6000,Cachorro,Chico,Macho,Liso,Dorado,,,Mediano,Marron oscuro,Corto,Corta,Medianas,Caidas
@@ -216,11 +216,11 @@ Mascota,Edad,Tamaño,Sexo,Patron de pelaje,Color de pelaje 1,Color de pelaje 2,C
 4391,Adulto,Mediano,Hembra,Bicolor,Blanco,Negro,,Corto,Marron oscuro,Mediano,Largo,Medianas,Caidas
 1498,Adulto,Grande,Macho,Bicolor,Blanco,Dorado,,Corto,Marron claro,Largo,Mediana,Largas,Paradas
 6040,Adulto,Mediano,Macho,Bicolor,Negro,Blanco,,Largo,Marron oscuro,Corto,Mediana,Medianas,Caidas
-4393,Adulto,Grande,Macho,Bicolor,Marron ,Negro,,Mediano,Marron oscuro,Largo,Largo,Largas,Paradas
+4393,Adulto,Grande,Macho,Bicolor,Marron,Negro,,Mediano,Marron oscuro,Largo,Largo,Largas,Paradas
 4397,Adulto,Chico,Hembra,Tricolor,Marron,Negro,Blanco,Corto,Marron oscuro,Mediano,Mediana,Medianas,Caidas
 6041,Adulto,Grande,Hembra,Liso,Blanco,,,Corto,Marron oscuro,Largo,Largo,Cortas,Paradas
 1508,Cachorro,Chico,Macho,Tricolor,Blanco,Negro,Marron,Mediano,Marron oscuro,Corto,Mediana,Largas,Caidas
-4400,Adulto,Muy Grande,Hembra,Bicolor,Blanco ,Marron,,Largo,Marron oscuro,Largo,Largo,Cortas,Caidas
+4400,Adulto,Muy Grande,Hembra,Bicolor,Blanco,Marron,,Largo,Marron oscuro,Largo,Largo,Cortas,Caidas
 6042,Cachorro,Chico,Macho,Bicolor,Negro,Blanco,,Corto,Marron oscuro,Corto,Corta,Medianas,Caidas
 1509,Adulto,Muy Grande,Macho,Bicolor,Gris,Marron,,Largo,Marron oscuro,Corto,Mediana,Cortas,Paradas
 4401,Adulto,Mediano,Hembra,Liso,Marron,,,Corto,Marron oscuro,Largo,Mediana,Cortas,Caidas

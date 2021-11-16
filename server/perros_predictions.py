@@ -11,7 +11,7 @@ class PerrosPrediction:
         self.predictPool = None
 
     def get_mascotas_ids(self):
-        data_train = pandas.read_csv('../data/perrosTrainAllComplete.csv')
+        data_train = pandas.read_csv('../data/perrosTrainAllInComplete.csv')
         null_value_stats = data_train.isnull().sum(axis=0)
         null_value_stats[null_value_stats != 0]
 
@@ -71,7 +71,7 @@ class PerrosPrediction:
         # model_file_name = "../models/modeldeep3inci2000.cbm"
         # model_file_name = "../models/withValidation/modelD350_mascota.cbm"
         # model_file_name = "../models/withValidation/modelD5it2000SinBestModel.cbm"
-        model_file_name = "../models/Teo/modelD6it100Incomplete.cbm"
+        model_file_name = "../models/Teo/modelDefinitivoIncompleteMin.cbm"
         model = CatBoostClassifier().load_model(
             model_file_name, format='cbm')
         
