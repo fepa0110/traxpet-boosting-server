@@ -1,6 +1,7 @@
 import pandas
 import numpy as np
 from perros_predictions_puras import PerrosPrediction
+from dynamic_predictions import DynamicPredictions
 from mascota_formatter import MascotaFormatter
 
 dataset_testeo = pandas.read_csv('../data/perros_train_v3.csv')

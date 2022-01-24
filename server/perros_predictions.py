@@ -23,9 +23,8 @@ class PerrosPrediction:
         mascotas_train_ids = data_train.Mascota
         return data_train.Mascota
 
+    # Metodo que genera un Pool de prediccion de una mascota
     def load_test_data(self,caracteristicas):
-        # dataset_test = pandas.read_csv('../data/perrosTestComplete.csv')
-
         caracteristicas = self.mascotaFormatter.format_caracteristicas(caracteristicas)
         dataset_test = self.mascotaFormatter.format_caracteristicas_to_csv(caracteristicas)
 
@@ -66,12 +65,7 @@ class PerrosPrediction:
                     cat_features=categorical_features_indices)
 
     def import_model(self):
-        # model_file_name = "../models/modelDeep6.cbm"
-        # model_file_name = "../models/modelIt2000Lr015D3.cbm"
-        # model_file_name = "../models/modeldeep3inci2000.cbm"
-        # model_file_name = "../models/withValidation/modelD350_mascota.cbm"
-        # model_file_name = "../models/withValidation/modelD5it2000SinBestModel.cbm"
-        model_file_name = "../models/Teo/modelDefinitivoIncompleteMin.cbm"
+        model_file_name = "./models/m_perros.cbm"
         model = CatBoostClassifier().load_model(
             model_file_name, format='cbm')
         
@@ -99,6 +93,7 @@ class PerrosPrediction:
 
         return pretty_output
 
+    # Predecir y parsear las predicciones obtenidas
     def get_predictions(self, pool):
         prediction = self.model.predict_proba(pool)
 
@@ -107,6 +102,7 @@ class PerrosPrediction:
         return predictions_dict
 
     def get_predict_data_from_json(self, caracteristicas):
+        # Generar el pool para predecir la mascota
         predict_pool = self.load_test_data(caracteristicas)
         # self.load_test_data(caracteristicas)
 

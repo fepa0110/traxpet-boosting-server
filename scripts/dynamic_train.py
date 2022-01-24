@@ -1,82 +1,70 @@
-import drda
+import math
+import numpy as np
 import pandas
+from catboost import CatBoostClassifier, Pool, metrics, cv
+from sklearn.metrics import confusion_matrix, accuracy_score
+from sklearn.model_selection import cross_val_score, train_test_split
+from dynamic_data import DynamicData
 
-def create_features_dict(especie_id):
-    cur = conn.cursor()
-    features_dict = dict()
-    features_dict["Mascota"] = []
+def get_info_labels():
+    print('Labels: {}'.format(set(y)))
+    print('Zero count = {}, One count = {}'.format(len(y) - sum(y), sum(y)))
 
-    cur.execute("SELECT DISTINCT car.NOMBRE " +
-                "FROM MASCOTA AS mas JOIN MASCOTA_VALOR AS masval ON (mas.MASCOTA_ID=masval.MASCOTAS_MASCOTA_ID)" +
-                "JOIN VALOR AS val ON (masval.VALORES_VALOR_ID=val.VALOR_ID)" +
-                "JOIN CARACTERISTICA AS car ON (val.CARACTERISTICA_ID=car.CARACTERISTICA_ID)" +
-                "WHERE mas.ESPECIE_ID = "+especie_id)
+dynamicData = DynamicData("2")
 
-    for row in cur.fetchall():
-        features_dict[row[0]] = []
-    
-    return features_dict
+train_df = dynamicData.format_mascotas_to_dataFrame()
+print(train_df)
 
-def query_mascotas_especie(especie_id):
-    cur = conn.cursor()
+y = train_df.Mascota
+X = train_df.drop('Mascota', axis=1)
 
-    # Mascotas
-    cur.execute("SELECT mas.MASCOTA_ID, val.VALOR_ID, val.NOMBRE, car.NOMBRE " +
-                "FROM MASCOTA AS mas JOIN MASCOTA_VALOR AS masval ON (mas.MASCOTA_ID=masval.MASCOTAS_MASCOTA_ID) " +
-                "JOIN VALOR AS val ON (masval.VALORES_VALOR_ID=val.VALOR_ID) " +
-                "JOIN CARACTERISTICA AS car ON (val.CARACTERISTICA_ID=car.CARACTERISTICA_ID) " +
-                "WHERE mas.ESPECIE_ID = "+especie_id)
-    return cur.fetchall()
+X.fillna("NaN", inplace=True)
 
-def format_mascotas_to_dataFrame(especie_id):
+cat_features = list(range(0, X.shape[1]))
+print(cat_features)
 
-    data_train = create_features_dict(especie_id)
+pool3 = Pool(data=X, cat_features=cat_features, label=y)
 
-    mascotas_list = query_mascotas_especie(especie_id)
-    mascota_anterior = mascotas_list[0][0]
-    lista_mascotas_id = data_train["Mascota"]
-    lista_mascotas_id.append(mascota_anterior)
-    data_train["Mascota"] = lista_mascotas_id
+print('Dataset shape')
+print('dataset 3:' + str(pool3.shape))
 
-    for row in mascotas_list:
-        mascotaActual = row[0]
-        if(mascota_anterior != mascotaActual):
-            lenArrays = len(data_train["Mascota"])
-            for columna in data_train.keys():
-                if(len(data_train[columna]) != lenArrays):
-                    # print(lenArrays, " -- ", len(data_train[columna]))
-                    # print("Completando ",columna,"...")
-                    lista_columna = data_train[columna]
-                    lista_columna.append("")
-                    data_train[columna] = lista_columna
-            lista_mascotas_id = data_train["Mascota"]
-            lista_mascotas_id.append(mascotaActual)
-            data_train["Mascota"] = lista_mascotas_id
+print('\n')
+print('Column names')
+print('\ndataset 3:')
+print(pool3.get_feature_names())
 
-        lista = data_train[row[3]]
-        lista.append(row[2])
+validation_df = train_df
+y_validation = train_df.Mascota
+X_validation = train_df.drop('Mascota', axis=1)
+X_validation.fillna("NaN", inplace=True)
 
-        data_train[row[3]] = lista
-        mascota_anterior = mascotaActual
+X_train = X
+y_train = y
 
+model = CatBoostClassifier(
+    # task_type='GPU',
+    class_names=y,
+    random_seed=63,
+    iterations=100,
+    eval_metric=metrics.Accuracy(),
+    cat_features=cat_features,
+    one_hot_max_size=7,
+    depth=6,
+    loss_function='MultiClass'
+)
 
-    lenArrays = len(data_train["Mascota"])
-    for columna in data_train.keys():
-        if(len(data_train[columna]) != lenArrays):
-            lista_columna = data_train[columna]
-            lista_columna.append("")
-            data_train[columna] = lista_columna
+model.fit(
+    X_train, y_train,
+    cat_features=cat_features,
+    eval_set=(X_validation, y_validation),
+    # verbose=False
+)
 
-    for col in data_train.keys():
-        print(col,": ",len(data_train[col]))
+print('Model is fitted: ' + str(model.is_fitted()))
+print('Model params:')
+print(model.get_params())
 
-    return pandas.DataFrame.from_dict(data_train)
-
-# Conexion con derby
-conn = drda.connect(host='localhost', database='traxpet-db', port=28001)
-
-especie_id = "1"
-
-data_frame = format_mascotas_to_dataFrame(especie_id)
-
-print(data_frame)
+model.save_model("../server/models/nuevo_modelo.cbm",
+                format="cbm",
+                export_parameters=None,
+                pool=None)
