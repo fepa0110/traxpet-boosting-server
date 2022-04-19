@@ -39,4 +39,4 @@ def json_example():
 
 if __name__ == '__main__':
     # run app in debug mode on port 5000
-    app.run(host="192.168.0.100", debug=True, port=5000)
+    app.run(host="localhost", debug=False, port=28003)
