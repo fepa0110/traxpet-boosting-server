@@ -6,6 +6,9 @@ from mascota_formatter import MascotaFormatter
 from especie_service import EspecieService
 from flask_cors import CORS, cross_origin
 
+HOST="localhost"
+PORT=28003
+
 # create the Flask app
 app = Flask(__name__)
 cors = CORS(app)
@@ -39,4 +42,4 @@ def json_example():
 
 if __name__ == '__main__':
     # run app in debug mode on port 5000
-    app.run(host="localhost", debug=False, port=28003)
+    app.run(host=HOST, debug=True, port=PORT)

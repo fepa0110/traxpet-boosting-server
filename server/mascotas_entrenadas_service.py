@@ -1,10 +1,9 @@
 import drda
 import pandas
-
+from constants import getConnection
 class MascotasEntrenadasService:
     def __init__(self):
-        self.conn = drda.connect(
-            host='localhost', database='traxpet-db', port=28001)
+        self.conn = getConnection()
 
     def set_connection(self, conn):
         self.conn = conn
