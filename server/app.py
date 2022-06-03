@@ -3,7 +3,7 @@ from flask import Flask, request
 from perros_predictions import PerrosPrediction
 from dynamic_predictions import DynamicPredictions
 from mascota_formatter import MascotaFormatter
-from especie_service import EspecieService
+from services.especie_service import EspecieService
 from flask_cors import CORS, cross_origin
 
 HOST="localhost"

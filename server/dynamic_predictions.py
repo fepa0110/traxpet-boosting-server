@@ -3,8 +3,8 @@ import numpy as np
 import pandas
 from catboost import CatBoostClassifier, Pool, metrics, cv
 from mascota_formatter import MascotaFormatter
-from model_service import ModelService
-from mascotas_entrenadas_service import MascotasEntrenadasService
+from services.model_service import ModelService
+from services.mascotas_entrenadas_service import MascotasEntrenadasService
 
 class DynamicPredictions:
     def __init__(self,especie_id):

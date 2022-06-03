@@ -1,8 +1,8 @@
 from pandas.core.algorithms import mode
 from perros_predictions import PerrosPrediction
 from mascota_formatter import MascotaFormatter
-from model_service import ModelService
-from mascotas_entrenadas_service import MascotasEntrenadasService
+from services.model_service import ModelService
+from services.mascotas_entrenadas_service import MascotasEntrenadasService
 import pandas
 
 mascotasEntrenadasService = MascotasEntrenadasService()
