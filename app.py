@@ -44,6 +44,11 @@ def json_example():
     # return especie
     return data
 
+@app.route('/train', methods=['POST'])
+@cross_origin()
+def train_models():
+    return "Entrenamiento no implementado"
+
 if __name__ == '__main__':
     # run app in debug mode on port 5000
     app.run(host=HOST, debug=True, port=PORT)
