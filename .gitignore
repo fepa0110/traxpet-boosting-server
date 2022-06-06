@@ -1,3 +1,6 @@
 catboost_info/
 data/perrosTestComplete.csv
 __pycache__/
+dist/
+venv/
+traxpet_boosting.egg-info/
