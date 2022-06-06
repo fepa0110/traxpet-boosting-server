@@ -3,11 +3,13 @@ import numpy as np
 import pandas
 from catboost import CatBoostClassifier, Pool, metrics, cv
 from mascota_formatter import MascotaFormatter
+from services.caracteristicas_service import CaracteristicasService
 from services.model_service import ModelService
 from services.mascotas_entrenadas_service import MascotasEntrenadasService
 
 class DynamicPredictions:
     def __init__(self,especie_id):
+        self.especie_id = especie_id
         self.model_service = ModelService()
         self.model_info = None
         self.model = self.import_model(especie_id)
@@ -28,8 +30,14 @@ class DynamicPredictions:
         return mascotas_ids,orden_list
 
     # Metodo que genera un Pool de prediccion de una mascota
-    def load_test_data(self,caracteristicas):
-        caracteristicas = self.mascotaFormatter.format_caracteristicas(caracteristicas)
+    def load_test_data(self,valores):
+        caracteristicaService = CaracteristicasService()
+
+        caracteristicas = caracteristicaService.get_caracteristicas(self.especie_id)
+        # Formateo de los valores completando la caracteristicas nulas
+
+        caracteristicas = self.mascotaFormatter.format_caracteristicas(valores, caracteristicas)
+        
         dataset_test = self.mascotaFormatter.format_caracteristicas_to_csv(caracteristicas)
 
         null_value_stats = dataset_test.isnull().sum(axis=0)
@@ -118,9 +126,9 @@ class DynamicPredictions:
         else:
             return "No hay modelo para la especie requerida"
 
-    def get_predict_data_from_json(self, caracteristicas):
+    def get_predict_data_from_json(self, valores):
         # Generar el pool para predecir la mascota
-        predict_pool = self.load_test_data(caracteristicas)
+        predict_pool = self.load_test_data(valores)
         # self.load_test_data(caracteristicas)
 
         return self.get_predictions(predict_pool)

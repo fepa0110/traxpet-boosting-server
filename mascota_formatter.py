@@ -1,32 +1,26 @@
 import pandas
 import numpy as np
 
+from services.caracteristicas_service import CaracteristicasService
+
 class MascotaFormatter:
     def __init__(self):
         pass
 
-    def format_caracteristicas(self, valores):
-        caracteristicas = dict({
-            "Mascota":[0],
-            "Edad":[""], 
-            "Tamaño":[""], 
-            "Sexo":[""], 
-            "Patron de pelaje":[""],
-            "Color de pelaje 1":[""],
-            "Color de pelaje 2":[""], 
-            "Color de pelaje 3":[""], 
-            "Largo de pelaje":[""], 
-            "Color de ojos":[""], 
-            "Largo de hocico":[""],
-            "Largo de cola":[""], 
-            "Largo de orejas":[""],
-            "Tipo de orejas":[""]
-        })
+    '''  
+        Formateo de los valores completando la caracteristicas nulas
+    '''
+    def format_caracteristicas(self, valores, caracteristicas):
+        caracteristicasDict = dict({"Mascota": [0]})
+        for caracteristica in caracteristicas:
+            caracteristicasDict.update({caracteristica[0]: [""]})
 
         for valor in valores:
-            caracteristicas[valor['caracteristica']['nombre']] = [valor['nombre']]
+            caracteristicasDict[valor['caracteristica']['nombre']] = [valor['nombre']]
         
-        return caracteristicas
+        print(caracteristicasDict)
+        
+        return caracteristicasDict
     
     def format_caracteristicas_to_csv(self,caracteristicas):
         dFCaracteristicaspandas = pandas.DataFrame.from_dict(caracteristicas)

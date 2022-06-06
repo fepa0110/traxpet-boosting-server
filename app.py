@@ -28,11 +28,15 @@ def json_example():
     especie_id = especieService.get_especie_id(especie_name)
 
     if(especie_id != None):
+        # Inicializo modulo de predicciones
         dynamicPredictions = DynamicPredictions(especie_id)
-        dictionary = dynamicPredictions.get_predict_data_from_json(
+
+        # Solicito una prediccion pasandole los valores recibidos
+        prediction = dynamicPredictions.get_predict_data_from_json(
             mascota_data["valores"])
-        if(type(dictionary) == type(dict())):
-            data = mascotaFormatter.parse_to_json(dictionary)
+        
+        if(type(prediction) == type(dict())):
+            data = mascotaFormatter.parse_to_json(prediction)
         else:
             data = "No hay modelos para la especie {}".format(especie_name)
     else:
