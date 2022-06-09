@@ -30,86 +30,89 @@ def entrenar_modelo(especie_id):
 
     mascotas_modelo_nuevo = mascota_service.get_ids_mascotas_by_especie_id(especie_id)
 
-    dynamicData = DynamicData(str(especie_id))
+    if(mascotas_modelo_nuevo != None):
+        dynamicData = DynamicData(str(especie_id))
 
-    print("Especie: {} - id: {}".format(especie_nombre,especie_id))
-    print(model_filename)
+        print("Especie: {} - id: {}".format(especie_nombre,especie_id))
+        print(model_filename)
 
-    train_df = dynamicData.format_mascotas_to_dataFrame()
-    print(train_df)
+        train_df = dynamicData.format_mascotas_to_dataFrame()
+        print(train_df)
 
-    y = train_df.Mascota
-    X = train_df.drop('Mascota', axis=1)
+        y = train_df.Mascota
+        X = train_df.drop('Mascota', axis=1)
 
-    X.fillna("NaN", inplace=True)
+        X.fillna("NaN", inplace=True)
 
-    cat_features = list(range(0, X.shape[1]))
-    print(cat_features)
+        cat_features = list(range(0, X.shape[1]))
+        print(cat_features)
 
-    pool3 = Pool(data=X, cat_features=cat_features, label=y)
+        pool3 = Pool(data=X, cat_features=cat_features, label=y)
 
-    print('Dataset shape')
-    print('dataset 3:' + str(pool3.shape))
+        print('Dataset shape')
+        print('dataset 3:' + str(pool3.shape))
 
-    print('\n')
-    print('Column names')
-    print('\ndataset 3:')
-    print(pool3.get_feature_names())
+        print('\n')
+        print('Column names')
+        print('\ndataset 3:')
+        print(pool3.get_feature_names())
 
-    validation_df = train_df
-    y_validation = train_df.Mascota
-    X_validation = train_df.drop('Mascota', axis=1)
-    X_validation.fillna("NaN", inplace=True)
+        validation_df = train_df
+        y_validation = train_df.Mascota
+        X_validation = train_df.drop('Mascota', axis=1)
+        X_validation.fillna("NaN", inplace=True)
 
-    X_train = X
-    y_train = y
+        X_train = X
+        y_train = y
 
-    model = CatBoostClassifier(
-        # task_type='GPU',
-        class_names=y,
-        random_seed=63,
-        iterations=100,
-        eval_metric=metrics.Accuracy(),
-        cat_features=cat_features,
-        one_hot_max_size=7,
-        depth=6,
-        loss_function='MultiClass'
-    )
+        model = CatBoostClassifier(
+            # task_type='GPU',
+            class_names=y,
+            random_seed=63,
+            iterations=100,
+            eval_metric=metrics.Accuracy(),
+            cat_features=cat_features,
+            one_hot_max_size=7,
+            depth=6,
+            loss_function='MultiClass'
+        )
 
-    model.fit(
-        X_train, y_train,
-        cat_features=cat_features,
-        eval_set=(X_validation, y_validation),
-        # verbose=False
-    )
+        model.fit(
+            X_train, y_train,
+            cat_features=cat_features,
+            eval_set=(X_validation, y_validation),
+            # verbose=False
+        )
 
-    print('Model is fitted: ' + str(model.is_fitted()))
-    print('Model params:')
-    print(model.get_params())
+        print('Model is fitted: ' + str(model.is_fitted()))
+        print('Model params:')
+        print(model.get_params())
 
-    model.save_model(model_directory,
-                    format="cbm",
-                    export_parameters=None,
-                    pool=None)
+        model.save_model(model_directory,
+                        format="cbm",
+                        export_parameters=None,
+                        pool=None)
 
-    model_nuevo_id = max_id_models+1
-    model_service.create_model(model_nuevo_id,model_filename,especie_id)
-    max_id_mascotas_entrenadas = mascotas_entrenadas_service.get_max_id()+1
-    orden = 1
+        model_nuevo_id = max_id_models+1
+        model_service.create_model(model_nuevo_id,model_filename,especie_id)
+        max_id_mascotas_entrenadas = mascotas_entrenadas_service.get_max_id()+1
+        orden = 1
 
-    print(len(mascotas_modelo_nuevo))
-    for mascota in mascotas_modelo_nuevo:
-        mascota_id = mascota[0]
-        mascotas_entrenadas_service.create_mascota_entrenada(
-            max_id_mascotas_entrenadas,orden,mascota_id, model_nuevo_id)
-        max_id_mascotas_entrenadas = max_id_mascotas_entrenadas+1
-        orden = orden+1
+        print(len(mascotas_modelo_nuevo))
+        for mascota in mascotas_modelo_nuevo:
+            mascota_id = mascota[0]
+            mascotas_entrenadas_service.create_mascota_entrenada(
+                max_id_mascotas_entrenadas,orden,mascota_id, model_nuevo_id)
+            max_id_mascotas_entrenadas = max_id_mascotas_entrenadas+1
+            orden = orden+1
 
-    if(model_antiguo != None):
-        model_service.deshabilitar_modelo_id(model_antiguo[0])
+        if(model_antiguo != None):
+            model_service.deshabilitar_modelo_id(model_antiguo[0])
         
 def entrenar_todas_especies():
+    print("Entrenando...")
     especie_service = EspecieService()
     all_especies = especie_service.get_especies_activas()
     for especie in all_especies:
         entrenar_modelo(especie[0])
+    

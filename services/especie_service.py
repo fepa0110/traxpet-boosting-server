@@ -2,8 +2,8 @@ import drda
 import pandas
 from constants import getConnection
 class EspecieService:
-    def __init__(self):
-        self.conn = getConnection()
+    def __init__(self, conn=getConnection()):
+        self.conn = conn
 
     def set_connection(self, conn):
         self.conn = conn

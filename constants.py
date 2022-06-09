@@ -1,7 +1,7 @@
 import drda 
 
-# HOST = 'if012pf.fi.mdn.unp.edu.ar'
-HOST = 'localhost'
+HOST = 'if012pf.fi.mdn.unp.edu.ar'
+# HOST = 'localhost'
 DATABASE = 'traxpet-db'
 PORT = 28001
 
