@@ -21,3 +21,29 @@ class EspecieService:
             return result[0][0]
         else:
             return None
+        
+    def get_especie_nombre(self, especie_id):
+        cur = self.conn.cursor()
+
+        cur.execute("SELECT esp.nombre " +
+                    "FROM ESPECIE AS esp " +
+                    "WHERE esp.especie_id = "+str(especie_id))
+        
+        result = cur.fetchall()
+        if(len(result) > 0):
+            return result[0][0]
+        else:
+            return None
+
+    def get_especies_activas(self):
+        cur = self.conn.cursor()
+
+        cur.execute("SELECT * " +
+                    "FROM ESPECIE AS esp " +
+                    "WHERE esp.deshabilitado = 0")
+
+        result = cur.fetchall()
+        if(len(result) > 0):
+            return result
+        else:
+            return None

@@ -25,3 +25,16 @@ class CaracteristicasService:
             return result
         else:
             return None
+
+    def get_nombre_by_id(self, caracteristica_id):
+        cur = self.conn.cursor()
+
+        cur.execute("SELECT caracteristica.NOMBRE " +
+                    "FROM Caracteristica AS caracteristica " +
+                    "WHERE caracteristica.CARACTERISTICA_ID = "+str(caracteristica_id))
+
+        result = cur.fetchall()
+        if(len(result) > 0):
+            return result[0][0]
+        else:
+            return None

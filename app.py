@@ -6,6 +6,13 @@ from mascota_formatter import MascotaFormatter
 from services.especie_service import EspecieService
 from flask_cors import CORS, cross_origin
 
+from dynamic_train import entrenar_todas_especies
+from apscheduler.schedulers.background import BackgroundScheduler
+
+from datetime import datetime
+import time
+import os
+
 HOST="localhost"
 PORT=28003
 
@@ -13,6 +20,17 @@ PORT=28003
 app = Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
+
+def tick():
+    print('Tick! The time is: %s' % datetime.now())
+
+def schedule_automatic_trains():
+    
+    scheduler = BackgroundScheduler()
+    scheduler.add_job(entrenar_todas_especies, 'interval', minutes=5, replace_existing=True)
+    scheduler.start()
+
+    print('Press Ctrl+{0} to exit'.format('Break' if os.name == 'nt' else 'C'))
 
 @app.route('/predict', methods=['POST'])
 @cross_origin()
@@ -48,6 +66,8 @@ def json_example():
 @cross_origin()
 def train_models():
     return "Entrenamiento no implementado"
+
+schedule_automatic_trains()
 
 if __name__ == '__main__':
     # run app in debug mode on port 5000

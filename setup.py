@@ -12,6 +12,7 @@ setup(
         'pydrda',
         'pandas',
         'sklearn',
-        'numpy'
+        'numpy',
+        'apscheduler'
     ],
 )
