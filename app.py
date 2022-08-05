@@ -14,7 +14,7 @@ import time
 import os
 
 HOST="localhost"
-PORT=28006
+PORT=28003
 
 # create the Flask app
 app = Flask(__name__)
@@ -27,7 +27,7 @@ def tick():
 def schedule_automatic_trains():
     
     scheduler = BackgroundScheduler()
-    scheduler.add_job(entrenar_todas_especies, 'interval', seconds=30, replace_existing=True)
+    scheduler.add_job(entrenar_todas_especies, 'interval', minutes=10, replace_existing=True)
     scheduler.start()
 
     print('Press Ctrl+{0} to exit'.format('Break' if os.name == 'nt' else 'C'))
