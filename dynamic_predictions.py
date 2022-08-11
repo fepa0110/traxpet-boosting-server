@@ -81,7 +81,7 @@ class DynamicPredictions:
         self.model_info = self.model_service.get_model_by_especie_id(
             especie_id)
 
-        print(self.model_info)
+        print("modelo: {}".format(self.model_info))
         
         filename = self.model_info[2]
 

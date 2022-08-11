@@ -96,7 +96,7 @@ class DynamicData:
         # print(data_train)
 
         mascotas_list = self.query_mascotas_especie()
-        # print(mascotas_list)
+        print(mascotas_list)
         
         mascota_anterior = mascotas_list[0][0]
         lista_mascotas_id = data_train["Mascota"]
