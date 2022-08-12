@@ -18,7 +18,7 @@ class MascotasEntrenadasService:
 
         result = cur.fetchall()
         if(len(result) > 0):
-            print("Mascotas entrenadas obtenidas")
+            print("{} mascotas entrenadas obtenidas".format(len(result)))
             return result
         else:
             return None

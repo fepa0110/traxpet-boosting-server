@@ -25,9 +25,8 @@ def tick():
     print('Tick! The time is: %s' % datetime.now())
 
 def schedule_automatic_trains():
-    
     scheduler = BackgroundScheduler()
-    scheduler.add_job(entrenar_todas_especies, 'interval', minutes=10, replace_existing=True)
+    scheduler.add_job(entrenar_todas_especies, 'interval', minutes=60, replace_existing=True)
     scheduler.start()
 
     print('Press Ctrl+{0} to exit'.format('Break' if os.name == 'nt' else 'C'))
@@ -65,7 +64,8 @@ def json_example():
 @app.route('/train', methods=['POST'])
 @cross_origin()
 def train_models():
-    return "Entrenamiento no implementado"
+    entrenar_todas_especies()
+    return "Mascotas entrenadas"
 
 schedule_automatic_trains()
 
