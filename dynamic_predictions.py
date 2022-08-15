@@ -97,10 +97,12 @@ class DynamicPredictions:
 
     def get_predictions_dict(self, prediction):
         prediction = prediction[0]
+        print("prediction: {}".format(len(prediction)))
         mascotas_ids,orden_ids = self.get_mascotas_ids()
         mascotas_similares = dict()
-
-        for prediction_index in range(len(prediction)):
+        
+        for prediction_index in range(len(prediction)-1):
+            print("index:{}".format(prediction_index))
             mascotas_similares[str(mascotas_ids[prediction_index])] = prediction[prediction_index]
 
         return mascotas_similares
