@@ -13,7 +13,7 @@ from datetime import datetime
 import time
 import os
 
-HOST="192.168.0.102"
+HOST="localhost"
 PORT=28003
 
 # create the Flask app
@@ -67,7 +67,7 @@ def train_models():
     entrenar_todas_especies()
     return "Mascotas entrenadas"
 
-schedule_automatic_trains()
+# schedule_automatic_trains()
 
 if __name__ == '__main__':
     # run app in debug mode on port 5000

@@ -99,7 +99,7 @@ def entrenar_modelo(especie_id):
         max_id_mascotas_entrenadas = mascotas_entrenadas_service.get_max_id()+1
         orden = 1
 
-        print(len(mascotas_modelo_nuevo))
+        print("Mascotas nuevas: {}".format(len(mascotas_modelo_nuevo)))
         for mascota in mascotas_modelo_nuevo:
             mascota_id = mascota[0]
             mascotas_entrenadas_service.create_mascota_entrenada(
