@@ -13,7 +13,7 @@ from datetime import datetime
 import time
 import os
 
-HOST="localhost"
+HOST="192.168.0.102"
 PORT=28003
 
 # create the Flask app
