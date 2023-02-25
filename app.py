@@ -6,6 +6,7 @@ from mascota_formatter import MascotaFormatter
 from services.especie_service import EspecieService
 from flask_cors import CORS, cross_origin
 
+from publication_cleaner import clean_up_posts
 from dynamic_train import entrenar_todas_especies
 from apscheduler.schedulers.background import BackgroundScheduler
 
@@ -27,6 +28,8 @@ def tick():
 def schedule_automatic_trains():
     scheduler = BackgroundScheduler()
     scheduler.add_job(entrenar_todas_especies, 'interval', minutes=10, replace_existing=True)
+    scheduler.add_job(clean_up_posts, 'interval',minutes=100, replace_existing=True)
+
     scheduler.start()
 
     print('Press Ctrl+{0} to exit'.format('Break' if os.name == 'nt' else 'C'))
@@ -67,7 +70,7 @@ def train_models():
     entrenar_todas_especies()
     return "Mascotas entrenadas"
 
-# schedule_automatic_trains()
+#schedule_automatic_trains()
 
 if __name__ == '__main__':
     # run app in debug mode on port 5000
