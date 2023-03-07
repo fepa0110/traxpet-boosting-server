@@ -16,7 +16,7 @@ class PublicacionService:
         previus_date = current_date - relativedelta(months=6)
         
         #query ="SELECT * FROM PUBLICACION AS publicacion where publicacion.FECHAPUBLICACION <= DATE('{}')".format(str(previus_date))
-        query = "UPDATE PUBLICACION SET ESTADO='INACTIVA' where FECHAPUBLICACION <= DATE('{}')".format(str(previus_date))
+        query = "UPDATE PUBLICACION SET ESTADO='INACTIVA' where FECHAMODIFICACION <= DATE('{}')".format(str(previus_date))
         #query = "SELECT * FROM PUBLICACION AS publicacion where publicacion.ESTADO = 'ACTIVA'"
         print(query)
         cur.execute(query)
