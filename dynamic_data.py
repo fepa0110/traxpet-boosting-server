@@ -3,6 +3,7 @@ import pandas
 from services.valor_service import ValorService
 from services.caracteristicas_service import CaracteristicasService
 from constants import getConnection
+import os
 
 class DynamicData:
     def __init__(self,especie_id):
@@ -85,7 +86,9 @@ class DynamicData:
                                 list_caracteristicas_ids[mascota_index][0])
                             )
             
-            print("Valores leidos: ", mascota_index, "de ",len(list_mascotas_ids))
+            # print("Valores leidos: ", mascota_index, "de ",len(list_mascotas_ids))
+            print("Leyendo valores...{}%".format((mascota_index*100)/len(list_mascotas_ids)))
+
             list_mascotas.append(mascota_tuple)
         
         # print(list_mascotas)

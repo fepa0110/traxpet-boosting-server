@@ -27,8 +27,8 @@ def tick():
 
 def schedule_automatic_trains():
     scheduler = BackgroundScheduler()
-    scheduler.add_job(entrenar_todas_especies, 'interval', minutes=10, replace_existing=True)
-    scheduler.add_job(clean_up_posts, 'interval',minutes=100, replace_existing=True)
+    # scheduler.add_job(entrenar_todas_especies, 'interval', minutes=10, replace_existing=True)
+    # scheduler.add_job(clean_up_posts, 'interval',minutes=100, replace_existing=True)
 
     scheduler.start()
 
@@ -69,6 +69,12 @@ def json_example():
 def train_models():
     entrenar_todas_especies()
     return "Mascotas entrenadas"
+
+@app.route('/clean', methods=['POST'])
+@cross_origin()
+def clean_publications():
+    clean_up_posts()
+    return "Mascotas limpiadas"
 
 #schedule_automatic_trains()
 

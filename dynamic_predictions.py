@@ -19,8 +19,10 @@ class DynamicPredictions:
     def get_mascotas_ids(self):
         mascotasEntrenadasService = MascotasEntrenadasService()
 
+        print("Modelo id: ",self.model_info[0])
         mascotasEntrenadas = mascotasEntrenadasService.get_by_model_id(self.model_info[0])
-
+        print(mascotasEntrenadas)
+        
         orden_list = list()
         mascotas_ids = list()
         for index in range(len(mascotasEntrenadas)):

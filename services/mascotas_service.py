@@ -16,7 +16,7 @@ class MascotasService:
         cur.execute("SELECT MASCOTA.MASCOTA_ID " +
                     "FROM PUBLICACION AS publicacion JOIN MASCOTA AS mascota "+
                     "ON(PUBLICACION.MASCOTA_ID=MASCOTA.MASCOTA_ID) "+
-                    "WHERE publicacion.ESTADO='ACTIVA' AND MASCOTA.ESPECIE_ID="+str(especie_id))
+                    "WHERE UPPER(publicacion.ESTADO)=UPPER('ACTIVA') AND MASCOTA.ESPECIE_ID="+str(especie_id))
 
         result = cur.fetchall()
         if(len(result) > 0):
