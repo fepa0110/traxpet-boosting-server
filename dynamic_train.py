@@ -26,6 +26,7 @@ def entrenar_modelo(especie_id):
 
     model_filename = "m_{}{}.cbm".format(especie_nombre, max_id_models+1)
     model_directory = "./models/{}".format(model_filename)
+
     model_antiguo = model_service.get_model_by_especie_id(especie_id)
 
     mascotas_modelo_nuevo = mascota_service.get_ids_mascotas_by_especie_id(especie_id)
@@ -78,21 +79,24 @@ def entrenar_modelo(especie_id):
             loss_function='MultiClass'
         )
 
-        model.fit(
-            X_train, y_train,
-            cat_features=cat_features,
-            eval_set=(X_validation, y_validation),
-            # verbose=False
-        )
+        # model.fit(
+        #     X_train, y_train,
+        #     cat_features=cat_features,
+        #     eval_set=(X_validation, y_validation),
+        #     # verbose=False
+        # )
 
         print('Model is fitted: ' + str(model.is_fitted()))
         print('Model params:')
         print(model.get_params())
 
-        model.save_model(model_directory,
-                        format="cbm",
-                        export_parameters=None,
-                        pool=None)
+        # model.save_model(model_directory,
+        #                 format="cbm",
+        #                 export_parameters=None,
+        #                 pool=None)
+        
+        with open(model_directory, "w") as archivo:
+            archivo.write("dsajfasljksfljkalkfjasklfjaklsjfklasjfkljflkjadjilalueausesabuileasbueilaseblasu")
 
         model_nuevo_id = max_id_models+1
         model_service.create_model(model_nuevo_id,model_filename,especie_id)

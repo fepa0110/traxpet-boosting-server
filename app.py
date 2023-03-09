@@ -1,4 +1,3 @@
-# import main Flask class and request object
 from flask import Flask, request
 from perros_predictions import PerrosPrediction
 from dynamic_predictions import DynamicPredictions
